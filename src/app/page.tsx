@@ -1,11 +1,12 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import ModeSwitch from "./components/ModeSwitch";
 
 export default function Home() {
   return (
     <div className={styles.page}>
       <h1>Hello</h1>
-      <main className={styles.main}></main>
+      <ModeSwitch />
       {/* //     <Image
     //       className={styles.logo}
     //       src="/next.svg"
