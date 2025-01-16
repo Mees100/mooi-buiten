@@ -4,3 +4,6 @@
   gap: 1rem;
   height: var(--header-height);
 }
+.active {
+  font-weight: bold;
+}
