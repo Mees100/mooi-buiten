@@ -4,6 +4,12 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
+      <div className={styles.banner}>
+        <q className={styles.bannerTypography}>
+          Nature is not a place to visit. It is home.
+        </q>
+        <p>– Gary Snyder</p>
+      </div>
       <div className={styles.wrapper}>
         <div className={styles.box}>
           <Image

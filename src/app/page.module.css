@@ -2,9 +2,18 @@
   margin-top: 50px;
   border: 2px red solid;
   width: 1000px;
-  height: 700px;
+  height: 1000px;
   display: grid;
   grid-template: repeat(2, 50%) / 1fr 2fr 1fr;
+}
+
+.banner {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.bannerTypography {
+  font-style: italic;
 }
 
 .box {
