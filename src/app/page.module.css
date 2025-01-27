@@ -1,0 +1,15 @@
+.wrapper {
+  margin-top: 50px;
+  border: 2px red solid;
+  width: 1000px;
+  height: 700px;
+  display: grid;
+  grid-template: repeat(2, 50%) / 1fr 2fr 1fr;
+}
+
+.box {
+  background-color: beige;
+  color: black;
+  border: 2px dodgerblue solid;
+  margin: unset;
+}
