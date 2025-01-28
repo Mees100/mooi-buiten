@@ -11,7 +11,7 @@ const gwendolyn = Gwendolyn({
 });
 
 export const metadata: Metadata = {
-  title: "Natuur",
+  title: "Mooi Nederland",
   description: "Natuur in Nederland",
 };
 
