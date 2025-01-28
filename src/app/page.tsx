@@ -1,5 +1,6 @@
 import styles from "./page.module.css";
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
           <Image
             src="/ice.jpg"
             alt="Picture of the author"
-            width={459}
+            width={460}
             height={550}
           />
         </div>
@@ -17,7 +18,7 @@ export default function Home() {
           <Image
             src="/meer.jpg"
             alt="Picture of the author"
-            width={918}
+            width={921}
             height={550}
           />
         </div>
@@ -25,7 +26,7 @@ export default function Home() {
           <Image
             src="/heideveld.jpg"
             alt="Picture of the author"
-            width={459}
+            width={460}
             height={550}
           />
         </div>
@@ -38,17 +39,22 @@ export default function Home() {
         </div>
         <div className={styles.currentContentDescription}>
           <h3>Wolfheze</h3>
+          <p>In januari tekst...</p>
+          <button className={styles.btnContent}>meer</button>
         </div>
         <div className={styles.currentContentImg}>
           <Image
             src="/tak.jpg"
             alt="Picture of the author"
             width={459}
-            height={550}
+            height={500}
           />
         </div>
 
-        <div className={styles.box}>g</div>
+        <div className={styles.content}></div>
+        <div className={styles.card1}></div>
+        <div className={styles.card2}></div>
+        <div className={styles.card3}></div>
       </div>
     </>
   );
