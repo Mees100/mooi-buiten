@@ -23,20 +23,31 @@ export default function Home() {
         </div>
         <div className={styles.bannerImage3}>
           <Image
-            src="/boom.jpg"
+            src="/heideveld.jpg"
             alt="Picture of the author"
             width={459}
             height={550}
           />
         </div>
-        <div className={styles.box}>d</div>
+
         <div className={styles.sectionQuote}>
           <q className={styles.quoteTypography}>
             Nature is not a place to visit. It is home.
           </q>
           <p style={{ fontSize: 20 }}>– Gary Snyder</p>
         </div>
-        <div className={styles.box}>f</div>
+        <div className={styles.currentContentDescription}>
+          <h3>Wolfheze</h3>
+        </div>
+        <div className={styles.currentContentImg}>
+          <Image
+            src="/tak.jpg"
+            alt="Picture of the author"
+            width={459}
+            height={550}
+          />
+        </div>
+
         <div className={styles.box}>g</div>
       </div>
     </>
