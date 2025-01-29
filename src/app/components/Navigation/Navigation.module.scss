@@ -1,0 +1,31 @@
+@use "../../styles/variables" as *;
+
+.nav {
+  display: flex;
+  height: $nav-height;
+  float: right;
+  padding: 10px 20px;
+  .Link {
+    padding: 10px;
+    color: #616055;
+  }
+  .active {
+    font-weight: bold;
+  }
+}
+
+.HeaderMenu {
+  align-content: center;
+  border: 1px solid#AFAFAF;
+  padding-left: 50px;
+  width: 100%;
+  height: 80px;
+  z-index: 100;
+  background-color: $primary-color;
+  color: $primary-font-color;
+  font : {
+    family: "Gwendolyn", serif;
+    style: normal;
+    size: 1.6rem;
+  }
+}

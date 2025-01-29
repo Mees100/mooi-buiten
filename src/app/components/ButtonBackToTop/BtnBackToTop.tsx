@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import styles from "./BtnBackToTop.module.css";
+import styles from "./BtnBackToTop.module.scss";
 
 const BtnBackToTop = () => {
   const [visible, setVisible] = useState(false);
