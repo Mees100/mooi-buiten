@@ -18,3 +18,9 @@ body {
   padding: 0;
   margin: 0 auto;
 }
+
+@media (min-width: $breakpoint-extraLarge) {
+  body {
+    width: 1841px;
+  }
+}

@@ -11,7 +11,7 @@ export default function Home() {
             src="/ice.jpg"
             alt="Picture of the author"
             width={460}
-            height={550}
+            height={500}
           />
         </div>
         <div className={styles.bannerImage2}>
@@ -19,7 +19,7 @@ export default function Home() {
             src="/meer.jpg"
             alt="Picture of the author"
             width={921}
-            height={550}
+            height={500}
           />
         </div>
         <div className={styles.bannerImage3}>
@@ -27,7 +27,7 @@ export default function Home() {
             src="/heideveld.jpg"
             alt="Picture of the author"
             width={460}
-            height={550}
+            height={500}
           />
         </div>
 
