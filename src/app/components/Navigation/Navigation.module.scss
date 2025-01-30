@@ -1,10 +1,14 @@
 @use "../../styles/variables" as *;
 
+.header_nav {
+  max-width: 1200px;
+}
 .nav {
   display: flex;
   height: $nav-height;
   float: right;
   padding: 10px 20px;
+  max-width: 1200px;
   .Link {
     padding: 10px;
     color: #616055;
@@ -27,5 +31,13 @@
     family: "Gwendolyn", serif;
     style: normal;
     size: 1.6rem;
+  }
+}
+
+@media (min-width: 1200) {
+  .HeaderMenu {
+    h1 {
+      text-align: center;
+    }
   }
 }

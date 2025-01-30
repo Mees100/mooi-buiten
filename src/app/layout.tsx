@@ -5,6 +5,7 @@ import Navigation from "./components/Navigation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Gwendolyn } from "next/font/google";
 import BtnBackToTop from "./components/ButtonBackToTop/BtnBackToTop";
+import styles from "./styles/container.module.scss";
 
 const gwendolyn = Gwendolyn({
   weight: "700",
@@ -24,7 +25,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navigation />
-        <main>{children}</main>
+        <main className={styles.container}>{children}</main>
         <BtnBackToTop />
         <Footer />
       </body>

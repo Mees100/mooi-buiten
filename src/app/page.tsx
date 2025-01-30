@@ -10,24 +10,24 @@ export default function Home() {
           <Image
             src="/ice.jpg"
             alt="Picture of the author"
-            width={460}
-            height={500}
+            width={300}
+            height={450}
           />
         </div>
         <div className={styles.bannerImage2}>
           <Image
             src="/meer.jpg"
             alt="Picture of the author"
-            width={921}
-            height={500}
+            width={600}
+            height={450}
           />
         </div>
         <div className={styles.bannerImage3}>
           <Image
             src="/heideveld.jpg"
             alt="Picture of the author"
-            width={460}
-            height={500}
+            width={300}
+            height={450}
           />
         </div>
 
@@ -50,7 +50,6 @@ export default function Home() {
             height={500}
           />
         </div>
-
         <div className={styles.content}></div>
         <div className={styles.card1}></div>
         <div className={styles.card2}></div>
