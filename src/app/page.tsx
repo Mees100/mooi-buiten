@@ -46,7 +46,7 @@ export default function Home() {
           <Image
             src="/tak.jpg"
             alt="Picture of the author"
-            width={459}
+            width={375}
             height={500}
           />
         </div>

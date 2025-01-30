@@ -3,6 +3,7 @@
 .header_nav {
   max-width: 1200px;
 }
+
 .nav {
   display: flex;
   height: $nav-height;
@@ -39,5 +40,11 @@
     h1 {
       text-align: center;
     }
+  }
+}
+
+@media (max-width: $breakpoint-large) {
+  .HeaderMenu {
+    width: 100%;
   }
 }
