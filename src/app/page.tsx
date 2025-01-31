@@ -6,28 +6,12 @@ export default function Home() {
   return (
     <>
       <div className={styles.wrapper}>
-        <div className={styles.bannerImage1}>
-          <Image
-            src="/ice.jpg"
-            alt="Picture of the author"
-            width={300}
-            height={450}
-          />
-        </div>
-        <div className={styles.bannerImage2}>
+        <div className={styles.bannerImg}>
           <Image
             src="/meer.jpg"
             alt="Picture of the author"
-            width={600}
-            height={450}
-          />
-        </div>
-        <div className={styles.bannerImage3}>
-          <Image
-            src="/heideveld.jpg"
-            alt="Picture of the author"
-            width={300}
-            height={450}
+            width={1200}
+            height={700}
           />
         </div>
 
