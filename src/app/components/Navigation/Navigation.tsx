@@ -12,7 +12,7 @@ export default function Navigation() {
   };
   return (
     <>
-      <div className={styles.header_nav}>
+      <div className={styles.header_top_wrapper}>
         <nav className={styles.nav}>
           <Link
             style={style}
@@ -36,10 +36,9 @@ export default function Navigation() {
             Contact
           </Link>
         </nav>
-
-        <div className={styles.HeaderMenu}>
-          <h1>Mooi Nederland</h1>
-        </div>
+      </div>
+      <div className={styles.HeaderMenu}>
+        <h1>Mooi Nederland</h1>
       </div>
     </>
   );
