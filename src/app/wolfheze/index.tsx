@@ -1,3 +1,3 @@
-import Test from "./wolfheze";
+import Test from "./page";
 
 export default Test;

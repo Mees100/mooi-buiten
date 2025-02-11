@@ -38,6 +38,9 @@ export default function Home() {
             height={550}
           />
         </div>
+        <div className={styles.title_container}>
+          <h2>De lente komt eraan</h2>
+        </div>
         <div className={styles.content}></div>
         <div className={styles.card1}></div>
         <div className={styles.card2}></div>
