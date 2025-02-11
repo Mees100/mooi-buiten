@@ -32,7 +32,7 @@
     font-style: italic;
   }
   .currentContentDescription {
-    grid-area: 5 / 4 / 7 / 7;
+    grid-area: 5 / 4 / 5 / 7;
     margin: unset;
     z-index: 5;
     box-shadow: 0 4px 8px #5580a6;
@@ -43,6 +43,12 @@
     height: 250px;
     align-self: center;
     margin-right: 50px;
+    border-radius: 10px;
+    height: 290px;
+    h3 {
+      font-size: 1.7rem;
+      padding: 15px;
+    }
 
     .btnContent {
       background: $primary-color;
@@ -55,30 +61,35 @@
       padding: 0.75rem 1.5rem;
       letter-spacing: 0.015625rem;
       margin: 30px;
+      align-self: flex-end;
     }
   }
   .currentContentImg {
-    grid-area: 5 / 6 / 6 / 9;
+    grid-area: 4 / 6 / 6 / 9;
     width: 590px;
     width: 100%;
     height: auto;
     margin: unset;
+    margin-top: 100px;
+    img {
+      border-radius: 10px;
+    }
   }
   .content {
-    grid-area: 8 / 1 / 10 / 13;
+    grid-area: 7 / 1 / 9 / 13;
     background-color: $primary-color;
     margin: unset;
   }
 
   .card1 {
-    grid-area: 8 / 2 / 10 / 6;
+    grid-area: 7 / 2 / 9 / 6;
     margin: unset;
     border: 1px solid black;
     z-index: 7 / 1 / 9 / 13;
   }
 
   .card2 {
-    grid-area: 8 / 7 / 10 / 11;
+    grid-area: 7 / 8 / 9 / 12;
     margin: unset;
     border: 1px solid black;
     z-index: 7 / 1 / 9 / 13;

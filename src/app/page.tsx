@@ -23,15 +23,15 @@ export default function Home() {
         </div>
         <div className={styles.currentContentDescription}>
           <h3>Wolfheze</h3>
-          <p>In januari tekst...</p>
+          <p>In januari 2025</p>
           <button className={styles.btnContent}>meer</button>
         </div>
         <div className={styles.currentContentImg}>
           <Image
             src="/ice.jpg"
             alt="Picture of the author"
-            width={375}
-            height={500}
+            width={400}
+            height={550}
           />
         </div>
         <div className={styles.content}></div>
