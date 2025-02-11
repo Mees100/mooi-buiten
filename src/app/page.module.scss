@@ -5,7 +5,7 @@
   width: auto;
   min-height: 100vh;
   height: 100%;
-  grid-template: repeat(10, 250px) / repeat(12, 1fr);
+  grid-template: repeat(7, 250px) repeat(2, 200px) / repeat(12, 1fr);
   justify-content: center;
   width: 100%;
 
@@ -95,7 +95,7 @@
   }
 
   .card1 {
-    grid-area: 8 / 2 / 10 / 6;
+    grid-area: 8 / 3 / 10 / 7;
     margin: unset;
     border: 1px solid black;
     z-index: 7 / 1 / 9 / 13;

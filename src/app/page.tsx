@@ -42,8 +42,22 @@ export default function Home() {
           <h2>De lente komt eraan</h2>
         </div>
         <div className={styles.content}></div>
-        <div className={styles.card1}></div>
-        <div className={styles.card2}></div>
+        <div className={styles.card1}>
+          <Image
+            src="/krokus.jpg"
+            alt="Picture of the author"
+            width={300}
+            height={400}
+          />
+        </div>
+        <div className={styles.card2}>
+          <Image
+            src="/muscari.jpg"
+            alt="Picture of the author"
+            width={300}
+            height={400}
+          />
+        </div>
         <div className={styles.card3}></div>
       </div>
     </>
