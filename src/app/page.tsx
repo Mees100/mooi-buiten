@@ -1,6 +1,7 @@
 import styles from "./page.module.scss";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -24,7 +25,10 @@ export default function Home() {
         <div className={styles.currentContentDescription}>
           <h3>Wolfheze</h3>
           <p>In januari 2025</p>
-          <button className={styles.btnContent}>meer</button>
+
+          <button className={styles.btnContent}>
+            <Link href="./wolfheze">meer</Link>
+          </button>
         </div>
         <div className={styles.currentContentImg}>
           <Image
