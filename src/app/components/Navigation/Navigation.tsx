@@ -7,12 +7,16 @@ export default function Navigation() {
   const pathname = usePathname();
   const style = {
     color: "#545756",
-    padding: "5px",
+    padding: "15px",
     textDecoration: "none",
+    margin: "0",
   };
   return (
     <>
       <div className={styles.header_top_wrapper}>
+        <div className={styles.logo}>
+          <h1>Mooi Nederland</h1>
+        </div>
         <nav className={styles.nav}>
           <Link
             style={style}
@@ -38,7 +42,13 @@ export default function Navigation() {
         </nav>
       </div>
       <div className={styles.HeaderMenu}>
-        <h1>Mooi Nederland</h1>
+        {/* <h1>Mooi Nederland</h1> */}
+        <div>
+          <ul>
+            <li>a</li>
+            <li>b</li>
+          </ul>
+        </div>
       </div>
     </>
   );

@@ -8,18 +8,28 @@
   top: 0;
   left: 0;
   right: 0;
-}
-
-.nav {
-  float: right;
-  padding: 10px 20px;
-  max-width: 1200px;
-  .Link {
-    padding: 10px;
-    color: #616055;
+  display: inline-flex;
+  .logo {
+    width: 50%;
+    margin: unset;
+    text-align: center;
+    align-content: center;
+    h1 {
+      display: inline;
+      align-items: center;
+      font : {
+        family: "Gwendolyn", serif;
+        style: normal;
+        size: 2rem;
+      }
+    }
   }
-  .active {
-    font-weight: bold;
+  .nav {
+    justify-content: end;
+    align-content: center;
+    width: 50%;
+    display: flex;
+    text-align: end;
   }
 }
 
@@ -33,11 +43,6 @@
   z-index: 100;
   background-color: $primary-color;
   color: $primary-font-color;
-  font : {
-    family: "Gwendolyn", serif;
-    style: normal;
-    size: 1.6rem;
-  }
 }
 
 @media (min-width: 1200) {
