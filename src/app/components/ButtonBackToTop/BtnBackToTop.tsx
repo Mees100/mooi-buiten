@@ -34,15 +34,16 @@ const BtnBackToTop = () => {
         onClick={scrollToTop}
         style={{
           position: "fixed",
-          bottom: "25px",
-          right: "25px",
+          bottom: "30px",
+          right: "27px",
           color: "black",
           border: "1px solid #5580A6",
           borderRadius: "50%",
           padding: "15px 15px",
-          fontSize: "20px",
+          fontSize: "25px",
           cursor: "pointer",
           boxShadow: "0 4px 8px #5580A6",
+          backgroundColor: "transparent",
         }}
       >
         ↑

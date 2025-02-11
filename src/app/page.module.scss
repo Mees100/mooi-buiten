@@ -34,7 +34,6 @@
   .currentContentDescription {
     grid-area: 5 / 4 / 5 / 7;
     margin: unset;
-    z-index: 5;
     box-shadow: 0 4px 8px #5580a6;
     background-color: #fff;
     text-align: center;
@@ -71,6 +70,7 @@
     height: auto;
     margin: unset;
     margin-top: 100px;
+    z-index: -5;
     img {
       border-radius: 10px;
     }

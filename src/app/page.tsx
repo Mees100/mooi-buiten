@@ -3,6 +3,11 @@ import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 
+const style = {
+  color: "black",
+  textDecoration: "none",
+};
+
 export default function Home() {
   return (
     <>
@@ -27,7 +32,9 @@ export default function Home() {
           <p>In januari 2025</p>
 
           <button className={styles.btnContent}>
-            <Link href="./wolfheze">meer</Link>
+            <Link href="./wolfheze" style={style}>
+              meer
+            </Link>
           </button>
         </div>
         <div className={styles.currentContentImg}>

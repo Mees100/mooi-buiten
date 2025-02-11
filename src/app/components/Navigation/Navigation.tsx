@@ -10,6 +10,7 @@ export default function Navigation() {
     padding: "15px",
     textDecoration: "none",
     margin: "0",
+    alignContent: "center",
   };
   return (
     <>
@@ -41,14 +42,14 @@ export default function Navigation() {
           </Link>
         </nav>
       </div>
+
       <div className={styles.HeaderMenu}>
         {/* <h1>Mooi Nederland</h1> */}
-        <div>
-          <ul>
-            <li>a</li>
-            <li>b</li>
-          </ul>
-        </div>
+
+        <ul>
+          <li>a</li>
+          <li>b</li>
+        </ul>
       </div>
     </>
   );
