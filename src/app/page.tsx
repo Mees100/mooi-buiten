@@ -28,7 +28,7 @@ export default function Home() {
         </div>
         <div className={styles.currentContentImg}>
           <Image
-            src="/tak.jpg"
+            src="/ice.jpg"
             alt="Picture of the author"
             width={375}
             height={500}

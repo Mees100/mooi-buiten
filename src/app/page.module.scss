@@ -5,7 +5,7 @@
   width: auto;
   min-height: 100vh;
   height: 100%;
-  grid-template: repeat(8, 250px) / repeat(12, 1fr);
+  grid-template: repeat(9, 250px) / repeat(12, 1fr);
   justify-content: center;
   width: 100%;
 
@@ -18,31 +18,35 @@
   .sectionQuote {
     grid-area: 3 / 1 / 3 / 13;
     text-align: center;
-    align-content: center;
+    align-content: start;
     font-size: 1.6rem;
     color: white;
     font-weight: 200;
     margin: unset;
     line-height: 3rem;
+    //background-color: white;
+    padding: 50px;
   }
   .quoteTypography {
+    margin-top: 50px;
     font-style: italic;
   }
   .currentContentDescription {
-    grid-area: 4 / 4 / 6 / 7;
+    grid-area: 5 / 4 / 7 / 7;
     margin: unset;
     z-index: 5;
     box-shadow: 0 4px 8px #5580a6;
-    background-color: $primary-color;
+    background-color: #fff;
     text-align: center;
     padding: 20px;
     color: #616055;
     height: 250px;
     align-self: center;
+    margin-right: 50px;
 
     .btnContent {
-      background: #1b1b1b;
-      color: #fff;
+      background: $primary-color;
+      color: black;
       border: solid 1px transparent;
       border-radius: 62.4375rem;
       font-size: 1.25rem;
@@ -54,38 +58,38 @@
     }
   }
   .currentContentImg {
-    grid-area: 4 / 6 / 5 / 9;
+    grid-area: 5 / 6 / 6 / 9;
     width: 590px;
     width: 100%;
     height: auto;
     margin: unset;
   }
   .content {
-    grid-area: 7 / 1 / 9 / 13;
+    grid-area: 8 / 1 / 10 / 13;
     background-color: $primary-color;
     margin: unset;
   }
 
   .card1 {
-    grid-area: 7 / 3 / 9 / 5;
+    grid-area: 8 / 2 / 10 / 6;
     margin: unset;
     border: 1px solid black;
     z-index: 7 / 1 / 9 / 13;
   }
 
   .card2 {
-    grid-area: 7 / 6 / 9 / 8;
+    grid-area: 8 / 7 / 10 / 11;
     margin: unset;
     border: 1px solid black;
     z-index: 7 / 1 / 9 / 13;
   }
 
-  .card3 {
-    grid-area: 7 / 9 / 9 / 11;
-    margin: unset;
-    border: 1px solid black;
-    z-index: 7 / 1 / 9 / 13;
-  }
+  // .card3 {
+  //   grid-area: 7 / 9 / 9 / 11;
+  //   margin: unset;
+  //   border: 1px solid black;
+  //   z-index: 7 / 1 / 9 / 13;
+  // }
 }
 
 // @media (min-width: $breakpoint-extraLarge) {
