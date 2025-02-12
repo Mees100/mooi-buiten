@@ -47,6 +47,20 @@
     align-content: center;
     width: 50%;
     display: flex;
+
+    .menuLink {
+      color: #545756;
+      padding: 15px;
+      text-decoration: none;
+      margin: 0;
+      align-content: center;
+      transition: color 0.3s ease;
+
+      &:hover,
+      &.active {
+        color: lighten(#545756, 20);
+      }
+    }
   }
 }
 

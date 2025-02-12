@@ -5,13 +5,7 @@ import { usePathname } from "next/navigation";
 
 export default function Navigation() {
   const pathname = usePathname();
-  const style = {
-    color: "#545756",
-    padding: "15px",
-    textDecoration: "none",
-    margin: "0",
-    alignContent: "center",
-  };
+
   return (
     <>
       <div className={styles.headerBar}>
@@ -21,23 +15,32 @@ export default function Navigation() {
           </div>
           <nav className={styles.nav}>
             <Link
-              style={style}
               href="./"
-              className={pathname === "/" ? styles.active : ""}
+              className={
+                pathname === "/"
+                  ? styles.menuLink + " " + styles.active
+                  : styles.menuLink
+              }
             >
               Home
             </Link>
             <Link
-              style={style}
               href="./about"
-              className={pathname === "/about" ? styles.active : ""}
+              className={
+                pathname === "/about"
+                  ? styles.menuLink + " " + styles.active
+                  : styles.menuLink
+              }
             >
               About
             </Link>
             <Link
-              style={style}
               href="./contact"
-              className={pathname === "/contact" ? styles.active : " "}
+              className={
+                pathname === "/contact"
+                  ? styles.menuLink + " " + styles.active
+                  : styles.menuLink
+              }
             >
               Contact
             </Link>
