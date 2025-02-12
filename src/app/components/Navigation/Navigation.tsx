@@ -14,43 +14,37 @@ export default function Navigation() {
   };
   return (
     <>
-      <div className={styles.header_top_wrapper}>
-        <div className={styles.logo}>
-          <h1>Mooi Nederland</h1>
+      <div className={styles.headerBar}>
+        <div className={styles.headerTopWrapper}>
+          <div className={styles.logo}>
+            <h1>Mooi Nederland</h1>
+          </div>
+          <nav className={styles.nav}>
+            <Link
+              style={style}
+              href="./"
+              className={pathname === "/" ? styles.active : ""}
+            >
+              Home
+            </Link>
+            <Link
+              style={style}
+              href="./about"
+              className={pathname === "/about" ? styles.active : ""}
+            >
+              About
+            </Link>
+            <Link
+              style={style}
+              href="./contact"
+              className={pathname === "/contact" ? styles.active : " "}
+            >
+              Contact
+            </Link>
+          </nav>
         </div>
-        <nav className={styles.nav}>
-          <Link
-            style={style}
-            href="./"
-            className={pathname === "/" ? styles.active : ""}
-          >
-            Home
-          </Link>
-          <Link
-            style={style}
-            href="./about"
-            className={pathname === "/about" ? styles.active : ""}
-          >
-            About
-          </Link>
-          <Link
-            style={style}
-            href="./contact"
-            className={pathname === "/contact" ? styles.active : " "}
-          >
-            Contact
-          </Link>
-        </nav>
       </div>
-
-      <div className={styles.HeaderMenu}>
-        {/* <h1>Mooi Nederland</h1> */}
-
-        <ul>
-          <li>a</li>
-          <li>b</li>
-        </ul>
-      </div>
+      <div className={styles.clearHeader}></div>
     </>
   );
 }
