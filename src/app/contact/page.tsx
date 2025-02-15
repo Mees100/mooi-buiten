@@ -6,56 +6,59 @@ export default function Contact() {
   return (
     <>
       <div className={styles.contactPage}>
-        <div className={styles.titleContactPage}>
-          <h1>Neem contact op met mij</h1>
-          <h2>Contactformulier</h2>
-        </div>
         <div className={styles.contactForm}>
           <Form action="/search">
             <fieldset>
-              <legend>E-mail verzenden</legend>
-              <div className={styles.controlLabel}>
+              <legend>Contactformulier</legend>
+              <div className={styles.controlLabelstar}>
                 <label>
                   <strong>*</strong>
                   Verplicht veld
                 </label>
               </div>
+
               <div className={styles.controlLabel}>
                 <label>
                   Naam
                   <span className={styles.star}>*</span>
                 </label>
               </div>
-              <input
-                type="text"
-                id="fname"
-                name="Naam"
-                placeholder="jouw naam"
-              ></input>
+              <div>
+                <input
+                  type="text"
+                  id="fname"
+                  name="Naam"
+                  placeholder="jouw naam"
+                ></input>
+              </div>
               <div className={styles.controlLabel}>
                 <label>
                   E-mailadres
                   <span className={styles.star}>*</span>
                 </label>
               </div>
-              <input
-                type="text"
-                id="lname"
-                name="E-mailadres"
-                placeholder="jouw e-mailadres"
-              ></input>
+              <div>
+                <input
+                  type="text"
+                  id="lname"
+                  name="E-mailadres"
+                  placeholder="jouw e-mailadres"
+                ></input>
+              </div>
               <div className={styles.controlLabel}>
                 <label>
                   Onderwerp
                   <span className={styles.star}>*</span>
                 </label>
               </div>
-              <input
-                type="text"
-                id="lname"
-                name="Onderwerp"
-                placeholder="Onderwerp"
-              ></input>
+              <div>
+                <input
+                  type="text"
+                  id="lname"
+                  name="Onderwerp"
+                  placeholder="Onderwerp"
+                ></input>
+              </div>
               <div>
                 <textarea
                   id="subject"
