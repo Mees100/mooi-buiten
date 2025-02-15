@@ -8,66 +8,56 @@ export default function Contact() {
       <div className={styles.contactPage}>
         <div className={styles.contactForm}>
           <Form action="/search">
-            <fieldset>
-              <legend>Contactformulier</legend>
-              <div className={styles.controlLabelstar}>
-                <label>
-                  <strong>*</strong>
-                  Verplicht veld
-                </label>
-              </div>
+            <h2>Contactformulier</h2>
+            <div className={styles.controlLabelstar}>
+              <strong>*</strong>
+              Verplicht veld
+            </div>
 
-              <div className={styles.controlLabel}>
-                <label>
-                  Naam
-                  <span className={styles.star}>*</span>
-                </label>
-              </div>
-              <div>
-                <input
-                  type="text"
-                  id="fname"
-                  name="Naam"
-                  placeholder="jouw naam"
-                ></input>
-              </div>
-              <div className={styles.controlLabel}>
-                <label>
-                  E-mailadres
-                  <span className={styles.star}>*</span>
-                </label>
-              </div>
-              <div>
-                <input
-                  type="text"
-                  id="lname"
-                  name="E-mailadres"
-                  placeholder="jouw e-mailadres"
-                ></input>
-              </div>
-              <div className={styles.controlLabel}>
-                <label>
-                  Onderwerp
-                  <span className={styles.star}>*</span>
-                </label>
-              </div>
-              <div>
-                <input
-                  type="text"
-                  id="lname"
-                  name="Onderwerp"
-                  placeholder="Onderwerp"
-                ></input>
-              </div>
-              <div>
-                <textarea
-                  id="subject"
-                  name="subject"
-                  placeholder="Write something.."
-                ></textarea>
-              </div>
-              <button type="submit">Verstuur e-mail</button>
-            </fieldset>
+            <div className={styles.formRow}>
+              <label htmlFor="fname" className={styles.required}>
+                Naam
+              </label>
+              <input
+                type="text"
+                id="fname"
+                name="fname"
+                placeholder="jouw naam"
+              ></input>
+            </div>
+            <div className={styles.formRow}>
+              <label htmlFor="lname" className={styles.required}>
+                E-mailadres
+              </label>
+              <input
+                type="text"
+                id="lname"
+                name="lname"
+                placeholder="jouw e-mailadres"
+              ></input>
+            </div>
+            <div className={styles.formRow}>
+              <label htmlFor="subject" className={styles.required}>
+                Onderwerp
+              </label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Onderwerp"
+              ></input>
+            </div>
+            <div>
+              <label htmlFor="message" className={styles.required}>
+                Bericht
+              </label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Schrijf hier je bericht.."
+              ></textarea>
+            </div>
+            <button type="submit">Verstuur e-mail</button>
           </Form>
         </div>
       </div>

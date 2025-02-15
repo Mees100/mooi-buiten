@@ -6,20 +6,20 @@
   .contactForm {
     border-radius: 5px;
     padding: 20px;
-    fieldset {
-      border: none;
-      margin: 0;
-      padding: 0;
-      min-width: 0;
-      legend {
-        font-size: 25px;
-        margin: 15px 0;
-      }
-      .controlLabelstar {
-        color: #c58223;
-        margin: 15px 0;
-      }
+    h2 {
+      font-size: 25px;
+      margin: 15px 0;
     }
+
+    .controlLabelstar {
+      color: #c58223;
+      margin: 15px 0;
+    }
+
+    .required:after {
+      content: " *";
+    }
+
     input[type="text"] {
       width: 100%;
       padding: 12px 20px;
