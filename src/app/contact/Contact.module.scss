@@ -9,6 +9,7 @@
     h2 {
       font-size: 25px;
       margin: 15px 0;
+      font-weight: 400;
     }
 
     .controlLabelstar {
@@ -28,7 +29,7 @@
     input,
     textarea {
       outline: 0;
-      border: 1px solid $quote-color;
+      border: 1px solid $primary-font-color;
       transition: box-shadow 0.15s ease-in-out;
       border-radius: 4px;
       box-sizing: border-box;
@@ -51,7 +52,7 @@
       resize: none;
     }
     button[type="submit"] {
-      background-color: #c58223;
+      background-color: $btn-submit;
       color: white;
       padding: 14px 20px;
       margin: 15px 0;
@@ -62,7 +63,7 @@
       font-size: 1rem;
       cursor: pointer;
       &:hover {
-        background-color: #3b3955;
+        background-color: $btn-bg;
       }
     }
   }
