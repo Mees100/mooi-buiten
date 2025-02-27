@@ -36,13 +36,13 @@ const BtnBackToTop = () => {
           position: "fixed",
           bottom: "30px",
           right: "27px",
-          color: "black",
-          border: "1px solid #5580A6",
+          color: "#616055",
+          border: "none",
           borderRadius: "50%",
-          padding: "15px 15px",
+          padding: "8px 15px",
           fontSize: "25px",
           cursor: "pointer",
-          boxShadow: "0 4px 8px #5580A6",
+          boxShadow: "0 4px 8px #3b3955",
           backgroundColor: "transparent",
         }}
       >

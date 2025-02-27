@@ -11,13 +11,13 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <button className={styles.btn} onClick={router.back}>
-        Back
+        ←
       </button>
       <button className={styles.btn} onClick={goHome}>
-        Home
+        home
       </button>
       <button className={styles.btn} onClick={router.forward}>
-        Forward
+        →
       </button>
     </footer>
   );
