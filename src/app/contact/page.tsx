@@ -41,7 +41,11 @@ export default function Contact() {
                 {...register("fname", { required: "Dit veld is verplicht" })}
                 placeholder="jouw naam"
               ></input>
-              {errors.fname && <span>{errors.fname.message}</span>}
+              {errors.fname && (
+                <span className={styles.errorMessage}>
+                  {errors.fname.message}
+                </span>
+              )}
             </div>
             <div className={styles.inputGroup}>
               <label htmlFor="lname" className={styles.required}>
@@ -53,7 +57,11 @@ export default function Contact() {
                 {...register("lname", { required: "Dit veld is verplicht" })}
                 placeholder="jouw e-mailadres"
               ></input>
-              {errors.lname && <span>{errors.lname.message}</span>}
+              {errors.lname && (
+                <span className={styles.errorMessage}>
+                  {errors.lname.message}
+                </span>
+              )}
             </div>
             <div className={styles.inputGroup}>
               <label htmlFor="subject" className={styles.required}>
@@ -68,7 +76,11 @@ export default function Contact() {
                 })}
                 placeholder="Onderwerp"
               ></input>
-              {errors.subject && <span>{errors.subject.message}</span>}
+              {errors.subject && (
+                <span className={styles.errorMessage}>
+                  {errors.subject.message}
+                </span>
+              )}
             </div>
             <div className={styles.inputGroup}>
               <label htmlFor="message" className={styles.required}>
