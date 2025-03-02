@@ -44,8 +44,8 @@
     border-radius: 10px;
     height: 290px;
     h3 {
-      font-size: 1.7rem;
       padding: 15px;
+      color: black;
     }
 
     .btnContent {
@@ -53,12 +53,12 @@
       color: black;
       border: solid 1px transparent;
       border-radius: 62.4375rem;
-      font-size: 1.25rem;
+      font-size: 1rem;
       line-height: 1.2;
-      min-height: 3rem;
+      min-height: 2.5rem;
       padding: 0.75rem 1.5rem;
       letter-spacing: 0.015625rem;
-      margin-top: 60px;
+      margin-top: 50px;
       align-self: flex-end;
     }
   }
@@ -80,11 +80,11 @@
     text-align: center;
     align-content: center;
     margin: unset;
-    color: $quote-color;
+    color: #55753b;
     font : {
       family: "Gwendolyn", serif;
       style: normal;
-      size: 2rem;
+      size: 2.4rem;
     }
   }
   .content {
@@ -96,14 +96,14 @@
   .card1 {
     grid-area: 8 / 3 / 10 / 7;
     margin: unset;
-    border: 1px solid black;
+    //border: 1px solid black;
     z-index: 7 / 1 / 9 / 13;
   }
 
   .card2 {
     grid-area: 8 / 8 / 10 / 12;
     margin: unset;
-    border: 1px solid black;
+    // border: 1px solid black;
     z-index: 7 / 1 / 9 / 13;
   }
 

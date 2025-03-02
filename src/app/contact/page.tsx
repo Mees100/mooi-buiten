@@ -25,7 +25,7 @@ export default function Contact() {
       <div className={styles.contactPage}>
         <div className={styles.contactForm}>
           <Form action="/search" onSubmit={handleSubmit(onSubmit)}>
-            <h2>Contactformulier</h2>
+            <h1>Contactformulier</h1>
             <div className={styles.controlLabelstar}>
               <strong>*</strong>
               Verplicht veld

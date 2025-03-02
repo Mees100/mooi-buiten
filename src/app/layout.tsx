@@ -31,7 +31,6 @@ export default function RootLayout({
         <Navigation />
         <main className={styles.container}>{children}</main>
         <BtnBackToTop />
-        <Footer />
       </body>
     </html>
   );

@@ -28,12 +28,15 @@ export default function Home() {
           <p style={{ fontSize: 20 }}>– Gary Snyder</p>
         </div>
         <div className={styles.currentContentDescription}>
-          <h3>Wolfheze</h3>
-          <p>In januari 2025</p>
+          <h3>Wolfheze in januari</h3>
+          <p>
+            Een prachtige wandeling op een ijzige en mistige ochtend op de
+            Veluwe
+          </p>
 
           <button className={styles.btnContent}>
             <Link href="./wolfheze" style={style}>
-              meer
+              Bekijk meer foto's
             </Link>
           </button>
         </div>
@@ -59,7 +62,7 @@ export default function Home() {
         </div>
         <div className={styles.card2}>
           <Image
-            src="/muscari.jpg"
+            src="/hamamelis.jpg"
             alt="Picture of the author"
             width={300}
             height={400}

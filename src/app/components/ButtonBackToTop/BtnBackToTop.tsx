@@ -1,6 +1,8 @@
 "use client";
 import { useState, useEffect } from "react";
 import styles from "./BtnBackToTop.module.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons/faArrowUp";
 
 const BtnBackToTop = () => {
   const [visible, setVisible] = useState(false);
@@ -29,24 +31,8 @@ const BtnBackToTop = () => {
 
   return (
     visible && (
-      <button
-        className={styles.btnBacktoTop}
-        onClick={scrollToTop}
-        style={{
-          position: "fixed",
-          bottom: "30px",
-          right: "27px",
-          color: "#616055",
-          border: "none",
-          borderRadius: "50%",
-          padding: "8px 15px",
-          fontSize: "25px",
-          cursor: "pointer",
-          boxShadow: "0 4px 8px #3b3955",
-          backgroundColor: "transparent",
-        }}
-      >
-        ↑
+      <button className={styles.btnBacktoTop} onClick={scrollToTop}>
+        <FontAwesomeIcon icon={faArrowUp} />
       </button>
     )
   );
