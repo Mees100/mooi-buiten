@@ -1,6 +1,5 @@
 import styles from "./page.module.scss";
 import Image from "next/image";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import MainRow from "./components/MainRow/MainRow";
 import MainInner from "./components/MainInner/MainInner";
