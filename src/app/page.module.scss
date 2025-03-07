@@ -1,13 +1,28 @@
+@use "styles/variables" as *;
+
 .bgGrey {
-  background-color: grey;
+  background-color: $primary-color;
 }
 
 .containerFlex {
   display: flex;
+  padding-top: 50px;
 }
 
 .contantCard {
   height: 516px;
   width: 360px;
   border: 1px solid black;
+}
+
+.quoteTypography {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  p {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
 }

@@ -13,6 +13,25 @@ export default function Home() {
   return (
     <>
       <MainRow>
+        <div className={styles.bgGrey}>
+          <MainInner>
+            <div>
+              <Image
+                src="/veluwe-schappen.jpg"
+                alt="Picture of the author"
+                width={1200}
+                height={650}
+              />
+              <div className={styles.quoteTypography}>
+                <p>
+                  "Nature is not a place to visit. It is home" – Gary Snyder
+                </p>
+              </div>
+            </div>
+          </MainInner>
+        </div>
+      </MainRow>
+      <MainRow>
         <div>
           <MainInner>
             <div className={styles.containerFlex}>
@@ -28,7 +47,7 @@ export default function Home() {
         </div>
       </MainRow>
       <MainRow>
-        <div className={styles.bgGrey}>
+        <div className={styles.bgGrey + " " + styles.containerFlex}>
           <MainInner>
             <h1>Over mij</h1>
             <p>
