@@ -13,6 +13,11 @@ body {
   width: 100%;
   color: $primary-font-color;
 }
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0 auto;
+}
 
 h1 {
   color: black;
@@ -20,10 +25,4 @@ h1 {
 
 h1 {
   font-size: 1.5rem;
-}
-
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0 auto;
 }
