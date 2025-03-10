@@ -10,9 +10,16 @@
 }
 
 .contantCard {
-  height: 516px;
+  height: 425px;
   width: 360px;
-  border: 1px solid black;
+  &:hover {
+    box-shadow: 0 4px 12px #17171a24, 0 0 6px #17171a1a;
+  }
+  .titleCard {
+    width: 100%;
+    text-align: center;
+    padding: 20px 20px;
+  }
 }
 
 .quoteTypography {

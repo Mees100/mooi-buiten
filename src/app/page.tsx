@@ -34,12 +34,39 @@ export default function Home() {
           <MainInner>
             <div className={styles.containerFlex}>
               <div className={styles.contantCard}>
-                <p>1</p>
+                <Image
+                  src="/ice.jpg"
+                  alt="Picture of the author"
+                  width={360}
+                  height={360}
+                />
+                <div className={styles.titleCard}>
+                  <p>Wolfheze in Januari</p>
+                </div>
               </div>
               <div className={styles.contantCard}>
-                <p>2</p>
+                <Image
+                  src="/krokus-2.jpg"
+                  alt="Picture of the author"
+                  width={360}
+                  height={360}
+                />
+                <div className={styles.titleCard}>
+                  <p>krokussen in februari</p>
+                </div>
               </div>
-              <div className={styles.contantCard}>3</div>
+              <div className={styles.contantCard}>
+                {" "}
+                <Image
+                  src="/hamamelis.jpg"
+                  alt="Picture of the author"
+                  width={360}
+                  height={360}
+                />
+                <div className={styles.titleCard}>
+                  <p>Arboretum Belmonte</p>
+                </div>
+              </div>
             </div>
           </MainInner>
         </div>
