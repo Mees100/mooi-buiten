@@ -1,3 +1,4 @@
+"use client";
 import styles from "./page.module.scss";
 import Image from "next/image";
 import Link from "next/link";
@@ -33,18 +34,7 @@ export default function Home() {
         <div>
           <MainInner>
             <div className={styles.containerFlex}>
-              <div className={styles.contantCard}>
-                <Image
-                  src="/amersfoort-1.jpg"
-                  alt="Picture of the author"
-                  width={360}
-                  height={360}
-                />
-                <div className={styles.titleCard}>
-                  <p>Amersfoort</p>
-                </div>
-              </div>
-              <div className={styles.contantCard}>
+              <div className={styles.layoutCards}>
                 <Image
                   src="/krokus-2.jpg"
                   alt="Picture of the author"
@@ -55,7 +45,18 @@ export default function Home() {
                   <p>Bloemen</p>
                 </div>
               </div>
-              <div className={styles.contantCard}>
+              <div className={styles.layoutCards}>
+                <Image
+                  src="/amersfoort-1.jpg"
+                  alt="Picture of the author"
+                  width={360}
+                  height={360}
+                />
+                <div className={styles.titleCard}>
+                  <p>Amersfoort</p>
+                </div>
+              </div>
+              <div className={styles.layoutCards}>
                 {" "}
                 <Image
                   src="/hamamelis.jpg"
@@ -75,12 +76,24 @@ export default function Home() {
         <div>
           <MainInner>
             <div className={styles.containerFlex}>
-              <Image
-                src="/meer.jpg"
-                alt="Picture of the author"
-                width={1000}
-                height={600}
-              />
+              <div className={styles.textContent}>
+                <h3>Veluwe</h3>
+                <p>Wolfheze in januari. Vorstelijke en mistige ochtend </p>
+                <button className={styles.btnContent}>
+                  <Link href="./wolfheze" style={style}>
+                    Bekijk meer foto's
+                  </Link>
+                </button>
+              </div>
+              <div>
+                <Image
+                  src="/meer.jpg"
+                  alt="Picture of the author"
+                  width={700}
+                  height={450}
+                  className={styles.imgContent}
+                />
+              </div>
             </div>
           </MainInner>
         </div>
