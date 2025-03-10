@@ -72,7 +72,7 @@ export default function Home() {
             <div className={styles.containerFlex}>
               <div className={styles.textContent}>
                 <h2>Veluwe</h2>
-                <p>Wolfheze in januari. Vorstelijke en mistige ochtend </p>
+                <p>Vorstelijke en mistige ochtend in januari</p>
                 <button className={styles.btnContent}>
                   <Link href="./wolfheze">Bekijk meer foto's</Link>
                 </button>
@@ -129,7 +129,7 @@ export default function Home() {
                 <div>
                   <Image
                     className={styles.imgBlock}
-                    src="/bladeren.jpg"
+                    src="/bergbloem.jpg"
                     alt="Picture of the author"
                     width={600}
                     height={350}
