@@ -23,9 +23,7 @@ export default function Home() {
                 height={650}
               />
               <div className={styles.quoteTypography}>
-                <p>
-                  "Nature is not a place to visit. It is home" – Gary Snyder
-                </p>
+                <p>Veluwe</p>
               </div>
             </div>
           </MainInner>

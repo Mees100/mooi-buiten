@@ -17,12 +17,13 @@
 
 .quoteTypography {
   position: absolute;
-  bottom: 10%;
-  left: 50%;
+  bottom: 19%;
+  left: 20%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: $primary-color;
+  background-color: transparent;
   p {
-    font-size: 1.2rem;
-    font-weight: 600;
+    font-size: 1rem;
+    font-weight: 100;
   }
 }
