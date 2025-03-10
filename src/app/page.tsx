@@ -35,13 +35,13 @@ export default function Home() {
             <div className={styles.containerFlex}>
               <div className={styles.contantCard}>
                 <Image
-                  src="/ice.jpg"
+                  src="/amersfoort-1.jpg"
                   alt="Picture of the author"
                   width={360}
                   height={360}
                 />
                 <div className={styles.titleCard}>
-                  <p>Wolfheze in Januari</p>
+                  <p>Amersfoort</p>
                 </div>
               </div>
               <div className={styles.contantCard}>
@@ -52,7 +52,7 @@ export default function Home() {
                   height={360}
                 />
                 <div className={styles.titleCard}>
-                  <p>krokussen in februari</p>
+                  <p>Bloemen</p>
                 </div>
               </div>
               <div className={styles.contantCard}>
@@ -64,9 +64,23 @@ export default function Home() {
                   height={360}
                 />
                 <div className={styles.titleCard}>
-                  <p>Arboretum Belmonte</p>
+                  <p>Arboretum Belmonte in de lente</p>
                 </div>
               </div>
+            </div>
+          </MainInner>
+        </div>
+      </MainRow>
+      <MainRow>
+        <div>
+          <MainInner>
+            <div className={styles.containerFlex}>
+              <Image
+                src="/meer.jpg"
+                alt="Picture of the author"
+                width={1000}
+                height={600}
+              />
             </div>
           </MainInner>
         </div>
