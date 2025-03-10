@@ -72,7 +72,7 @@ export default function Home() {
             <div className={styles.containerFlex}>
               <div className={styles.textContent}>
                 <h2>Veluwe</h2>
-                <p>Vorstelijke en mistige ochtend in januari</p>
+                <p>Ijzige en mistige ochtend in januari</p>
                 <button className={styles.btnContent}>
                   <Link href="./wolfheze">Bekijk meer foto's</Link>
                 </button>

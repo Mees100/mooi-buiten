@@ -3,6 +3,8 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "./wolfheze.module.scss";
 import MainInner from "../components/MainInner/MainInner";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faMapLocation, faMarker } from "@fortawesome/free-solid-svg-icons";
 
 export default function Test() {
   return (
@@ -12,10 +14,18 @@ export default function Test() {
           <div className={styles.contentTitle}>
             <h3>Mooie ochtend in januari op de Veluwe</h3>
             <p>
-              Deze mooie natuur ligt in de gemeente Arnem, maar in werkelijkheid
-              is het niet ver van het station Wolfheze in de gemeente Renkum, de
-              plaats ligt ten zuiden van de spoorlijn, ten oosten van Johanna
-              Hoeve
+              Vlak naast de A50 en op loopafstand van station Wolfheze ligt dit
+              schitterende heideveld. Op een mooie januari ochtend met veel mist
+              en rijp heb ik er deze foto's gemaakt. (2025)
+            </p>
+            <p>
+              <FontAwesomeIcon icon={faMapLocation}></FontAwesomeIcon>{" "}
+              <a
+                target="_blank"
+                href="https://www.openstreetmap.org/?mlat=52.00723&mlon=5.80625#map=16/52.00723/5.80625"
+              >
+                Bekijk de locatie
+              </a>
             </p>
           </div>
           <div className={styles.img1}>
