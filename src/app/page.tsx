@@ -5,11 +5,6 @@ import Link from "next/link";
 import MainRow from "./components/MainRow/MainRow";
 import MainInner from "./components/MainInner/MainInner";
 
-const style = {
-  color: "black",
-  textDecoration: "none",
-};
-
 export default function Home() {
   return (
     <>
@@ -18,14 +13,12 @@ export default function Home() {
           <MainInner>
             <div>
               <Image
+                className={styles.imgBlock}
                 src="/veluwe-schappen.jpg"
                 alt="Picture of the author"
                 width={1200}
                 height={650}
               />
-              <div className={styles.imgTitle}>
-                <p>Veluwe</p>
-              </div>
             </div>
           </MainInner>
         </div>
@@ -77,12 +70,10 @@ export default function Home() {
           <MainInner>
             <div className={styles.containerFlex}>
               <div className={styles.textContent}>
-                <h3>Veluwe</h3>
+                <h2>Veluwe</h2>
                 <p>Wolfheze in januari. Vorstelijke en mistige ochtend </p>
                 <button className={styles.btnContent}>
-                  <Link href="./wolfheze" style={style}>
-                    Bekijk meer foto's
-                  </Link>
+                  <Link href="./wolfheze">Bekijk meer foto's</Link>
                 </button>
               </div>
               <div>
@@ -112,22 +103,39 @@ export default function Home() {
       </MainRow>
 
       <MainRow>
-        <div className={styles.bgGrey + " " + styles.containerFlex}>
+        <div className={styles.bgGrey}>
           <MainInner>
-            <h1>Over mij</h1>
-            <p>
-              Lorem ipsum odor amet, consectetuer adipiscing elit. Risus sit
-              mauris non class tempus lobortis etiam sem himenaeos. Sociosqu
-              euismod penatibus mattis inceptos tincidunt facilisi fusce erat.
-            </p>
-            <p>
-              Vehicula feugiat ultricies dui ad rutrum venenatis. Class mauris
-              dictum magna rhoncus habitant potenti posuere nostra. Blandit
-              litora metus nisl tempus eros ridiculus finibus volutpat. Lacinia
-              ante semper habitasse malesuada risus. Litora penatibus erat augue
-              mus velit congue. Nec lacinia vel porttitor, fermentum id
-              facilisis ipsum sagittis.
-            </p>
+            <div className={styles.imgGallery}>
+              <div className={styles.imgBox1}>
+                <Image
+                  className={styles.imgBlock}
+                  src="/Lunezee.jpg"
+                  alt="Picture of the author"
+                  width={450}
+                  height={700}
+                />
+              </div>
+              <div className={styles.imgBox2}>
+                <div>
+                  <Image
+                    className={styles.imgBlock}
+                    src="/mistInBergen.jpg"
+                    alt="Picture of the author"
+                    width={600}
+                    height={350}
+                  />
+                </div>
+                <div>
+                  <Image
+                    className={styles.imgBlock}
+                    src="/bladeren.jpg"
+                    alt="Picture of the author"
+                    width={600}
+                    height={350}
+                  />
+                </div>
+              </div>
+            </div>
           </MainInner>
         </div>
       </MainRow>

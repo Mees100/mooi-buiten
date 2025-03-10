@@ -31,7 +31,7 @@ export default function About() {
 
               <div className={styles.image}>
                 <Image
-                  src="/muscari-vierkant.jpg"
+                  src="/me.jpg"
                   alt="Picture of the author"
                   width={400}
                   height={400}
