@@ -8,17 +8,18 @@
   display: flex;
   padding-top: 50px;
 }
-
-.imgTitle {
-  position: absolute;
-  bottom: 4%;
-  left: 20%;
-  transform: translate(-50%, -50%);
-  color: $primary-color;
-  background-color: transparent;
-  p {
-    font-size: 1rem;
-    font-weight: 100;
+.banner {
+  position: relative;
+  .bannerTitle {
+    position: absolute;
+    bottom: 4%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    color: $primary-color;
+    background-color: transparent;
+    p {
+      font-size: 1rem;
+    }
   }
 }
 

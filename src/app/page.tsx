@@ -11,7 +11,7 @@ export default function Home() {
       <MainRow>
         <div className={styles.bgGrey}>
           <MainInner>
-            <div>
+            <div className={styles.banner}>
               <Image
                 className={styles.imgBlock}
                 src="/veluwe-schappen.jpg"
@@ -19,6 +19,7 @@ export default function Home() {
                 width={1200}
                 height={650}
               />
+              <div className={styles.bannerTitle}>Veluwe</div>
             </div>
           </MainInner>
         </div>
