@@ -23,7 +23,7 @@ export default function Home() {
                 width={1200}
                 height={650}
               />
-              <div className={styles.quoteTypography}>
+              <div className={styles.imgTitle}>
                 <p>Veluwe</p>
               </div>
             </div>
@@ -98,6 +98,19 @@ export default function Home() {
           </MainInner>
         </div>
       </MainRow>
+      <MainRow>
+        <div>
+          <MainInner>
+            <div className={styles.quote}>
+              <q className={styles.quoteTypography}>
+                Nature is not a place to visit. It is home.
+              </q>
+              <p style={{ fontSize: 20 }}>– Gary Snyder</p>
+            </div>
+          </MainInner>
+        </div>
+      </MainRow>
+
       <MainRow>
         <div className={styles.bgGrey + " " + styles.containerFlex}>
           <MainInner>

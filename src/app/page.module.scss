@@ -9,7 +9,7 @@
   padding-top: 50px;
 }
 
-.quoteTypography {
+.imgTitle {
   position: absolute;
   bottom: 4%;
   left: 20%;
@@ -61,4 +61,12 @@
 }
 .imgContent {
   border-radius: 10px;
+}
+
+.quote {
+  display: block;
+  text-align: center;
+  align-content: center;
+  height: 425px;
+  font-size: 2rem;
 }
