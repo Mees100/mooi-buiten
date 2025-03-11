@@ -47,7 +47,7 @@ export default function Home() {
                   height={360}
                 />
                 <div className={styles.titleCard}>
-                  <p>Amersfoort</p>
+                  <Link href="./amersfoort">Amersfoort</Link>
                 </div>
               </div>
               <div className={styles.layoutCards}>
