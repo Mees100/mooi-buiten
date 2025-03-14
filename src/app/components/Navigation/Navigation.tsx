@@ -11,7 +11,7 @@ export default function Navigation() {
       <div className={styles.headerBar}>
         <div className={styles.headerTopWrapper}>
           <div className={styles.logo}>
-            <h1>Mooi Nederland</h1>
+            <Link href="./">Mooi Nederland</Link>
           </div>
           <nav className={styles.nav}>
             <Link

@@ -31,10 +31,11 @@
     text-align: start;
     align-content: center;
 
-    h1 {
+    a {
       color: $primary-font-color;
       display: inline;
       align-items: center;
+      text-decoration: none;
       font : {
         family: "Gwendolyn", serif;
         style: normal;
