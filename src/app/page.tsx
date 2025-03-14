@@ -40,27 +40,27 @@ export default function Home() {
                 </div>
               </div>
               <div className={styles.layoutCards}>
-                <Image
-                  src="/amersfoort-1.jpg"
-                  alt="Picture of the author"
-                  width={360}
-                  height={360}
-                />
-                <div className={styles.titleCard}>
-                  <Link href="./amersfoort">Amersfoort</Link>
-                </div>
+                <Link href="./amersfoort">
+                  <Image
+                    src="/amersfoort-1.jpg"
+                    alt="Picture of the author"
+                    width={360}
+                    height={360}
+                  />
+                  <div className={styles.titleCard}>Amersfoort</div>
+                </Link>
               </div>
               <div className={styles.layoutCards}>
-                {" "}
-                <Image
-                  src="/hamamelis.jpg"
-                  alt="Picture of the author"
-                  width={360}
-                  height={360}
-                />
-                <div className={styles.titleCard}>
-                  <Link href="./belmonte_arboretum">Belmonte Arboretum</Link>
-                </div>
+                <Link href="./belmonte_arboretum">
+                  {" "}
+                  <Image
+                    src="/hamamelis.jpg"
+                    alt="Picture of the author"
+                    width={360}
+                    height={360}
+                  />
+                  <div className={styles.titleCard}>Belmonte Arboretum</div>
+                </Link>
               </div>
             </div>
           </MainInner>

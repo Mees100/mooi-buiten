@@ -26,8 +26,13 @@
 .layoutCards {
   height: 425px;
   width: 360px;
+  box-shadow: 0 0 12px lighten(#17171a24, 40%), 0 0 6px lighten(#17171a1a, 40%);
+  a {
+    color: $primary-font-color;
+    text-decoration: none;
+  }
   &:hover {
-    box-shadow: 0 4px 12px #17171a24, 0 0 6px #17171a1a;
+    box-shadow: 0 0 12px #17171a24, 0 0 6px #17171a1a;
   }
   .titleCard {
     width: 100%;
