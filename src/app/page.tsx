@@ -59,7 +59,7 @@ export default function Home() {
                   height={360}
                 />
                 <div className={styles.titleCard}>
-                  <p>Arboretum Belmonte in de lente</p>
+                  <Link href="./belmonte_arboretum">Belmonte Arboretum</Link>
                 </div>
               </div>
             </div>

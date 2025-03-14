@@ -2,7 +2,7 @@
 
 .wrapper {
   display: grid;
-  grid-template: 200px repeat(6, 250px) / repeat(12, 1fr);
+  grid-template: 250px repeat(6, 250px) / repeat(12, 1fr);
   width: 100%;
   min-height: 100vh;
   height: 100%;
@@ -12,6 +12,7 @@
   grid-area: 1 / 1 / 1 / 13;
   padding: 3% 1%;
   font-size: 1.2rem;
+  line-height: 2rem;
 
   h3 {
     text-align: center;
