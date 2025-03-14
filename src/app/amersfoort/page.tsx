@@ -11,11 +11,6 @@ export default function Test() {
         <div className={styles.wrapper}>
           <div className={styles.contentTitle}>
             <h3>Amersfoort</h3>
-            <p>
-              Vlak naast de A50 en op loopafstand van station Wolfheze ligt dit
-              schitterende heideveld. Op een mooie januari ochtend met veel mist
-              en rijp heb ik er deze foto's gemaakt. (2025)
-            </p>
           </div>
 
           <div className={styles.img1}>
