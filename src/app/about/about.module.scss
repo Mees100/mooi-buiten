@@ -1,0 +1,21 @@
+.about {
+  padding-top: 4rem;
+  p,
+  h1 {
+    padding-bottom: 1em;
+    font-weight: 400;
+  }
+  .contentWrapper {
+    display: flex;
+    flex-direction: row;
+    text-align: justify;
+    .text {
+      padding-right: 7rem;
+    }
+    .image {
+      img {
+        box-shadow: 5 5 5 grey;
+      }
+    }
+  }
+}

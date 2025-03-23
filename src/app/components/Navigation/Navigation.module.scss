@@ -1,0 +1,82 @@
+@use "../../styles/variables" as *;
+
+.headerBar {
+  height: 100px;
+  box-shadow: 0 0 8px #17171a0d, 0 2px 8px #17171a14;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 1001;
+}
+
+.clearHeader {
+  position: static;
+  margin-top: 100px;
+}
+
+.headerTopWrapper {
+  max-width: 1200px;
+  height: $nav-height;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: inline-flex;
+
+  .logo {
+    width: 50%;
+    margin: unset;
+    text-align: start;
+    align-content: center;
+
+    a {
+      color: $primary-font-color;
+      display: inline;
+      align-items: center;
+      text-decoration: none;
+      font : {
+        family: "Gwendolyn", serif;
+        style: normal;
+        size: 3.5rem;
+      }
+    }
+  }
+  .nav {
+    justify-content: end;
+    align-content: center;
+    width: 50%;
+    display: flex;
+
+    .menuLink {
+      color: #545756;
+      padding: 15px;
+      text-decoration: none;
+      margin: 0;
+      align-content: center;
+      transition: color 0.3s ease;
+
+      &:hover,
+      &.active {
+        color: lighten(#545756, 20);
+      }
+    }
+  }
+}
+
+@media (min-width: 1200) {
+  .HeaderMenu {
+    background-color: $primary-color;
+    h1 {
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: $breakpoint-large) {
+  .HeaderMenu {
+    width: 100%;
+  }
+}
