@@ -17,8 +17,8 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Mooi Nederland",
-  description: "Natuur in Nederland",
+  title: "Mooi Buiten",
+  description: "Buiten, waar de zon schijnt!",
 };
 
 export default function RootLayout({
