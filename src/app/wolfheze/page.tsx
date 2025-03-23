@@ -1,10 +1,9 @@
 "use client";
-import Link from "next/link";
 import Image from "next/image";
 import styles from "./wolfheze.module.scss";
 import MainInner from "../components/MainInner/MainInner";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faMapLocation, faMarker } from "@fortawesome/free-solid-svg-icons";
+import { faMapLocation } from "@fortawesome/free-solid-svg-icons";
 
 export default function Test() {
   return (
@@ -16,7 +15,7 @@ export default function Test() {
             <p>
               Vlak naast de A50 en op loopafstand van station Wolfheze ligt dit
               schitterende heideveld. Op een mooie januari ochtend met veel mist
-              en rijp heb ik er deze foto's gemaakt. (2025)
+              en rijp heb ik er deze foto&apos;s gemaakt. (2025)
             </p>
             <p>
               <FontAwesomeIcon icon={faMapLocation}></FontAwesomeIcon>{" "}

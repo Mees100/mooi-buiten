@@ -7,9 +7,12 @@ import styles from "./styles/container.module.scss";
 
 const gwendolyn = Gwendolyn({
   weight: "700",
+  subsets: ["latin"],
+  variable: "--font-gwendolyn",
 });
 const roboto = Roboto({
   weight: "400",
+  variable: "--font-roboto",
   subsets: ["latin"],
 });
 
@@ -24,7 +27,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={roboto.className}>
+    <html lang="nl" className={`${roboto.variable} ${gwendolyn.variable}`}>
       <body>
         <Navigation />
         <main className={styles.container}>{children}</main>

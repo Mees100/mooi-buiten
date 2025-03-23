@@ -1,5 +1,4 @@
 "use client";
-import Link from "next/link";
 import Image from "next/image";
 import styles from "./amersfoort.module.scss";
 import MainInner from "../components/MainInner/MainInner";
