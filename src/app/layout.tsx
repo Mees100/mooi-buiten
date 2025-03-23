@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.scss";
-import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Gwendolyn, Roboto } from "next/font/google";
 import BtnBackToTop from "./components/ButtonBackToTop/BtnBackToTop";
 import styles from "./styles/container.module.scss";
