@@ -7,7 +7,12 @@
 .containerFlex {
   display: flex;
   padding-top: 50px;
+  max-width: 100%;
+  @media only screen and (max-width: 1078px) {
+    flex-direction: column;
+  }
 }
+
 .banner {
   position: relative;
   .bannerTitle {
@@ -27,6 +32,7 @@
   height: 425px;
   width: 360px;
   box-shadow: 0 0 12px lighten(#17171a24, 40%), 0 0 6px lighten(#17171a1a, 40%);
+
   a {
     color: $primary-font-color;
     text-decoration: none;
@@ -84,11 +90,15 @@
 
 .imgBlock {
   display: block;
+  max-width: 100%;
+
+  // @media only screen and (max-width: 600px)
 }
 .imgGallery {
   display: flex;
   width: 1050px;
   height: 700px;
+  max-width: 100%;
 
   .imgBox1 {
     width: 450px;
@@ -98,5 +108,6 @@
     width: 600px;
     height: 700px;
     background-color: $primary-color;
+    max-height: 100%;
   }
 }
