@@ -13,7 +13,7 @@ export default function Home() {
           <MainInner>
             <div className={styles.banner}>
               <Image
-                className={styles.imgBlock}
+                className={styles.imgBanner}
                 src="/veluwe-schappen.jpg"
                 alt="Picture of the author"
                 width={1200}
