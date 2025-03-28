@@ -30,6 +30,7 @@ export default function Home() {
             <div className={styles.containerFlex}>
               <div className={styles.layoutCards}>
                 <Image
+                  className={styles.imgCards}
                   src="/krokus-2.jpg"
                   alt="Picture of the author"
                   width={360}
@@ -42,6 +43,7 @@ export default function Home() {
               <div className={styles.layoutCards}>
                 <Link href="./amersfoort">
                   <Image
+                    className={styles.imgCards}
                     src="/amersfoort-1.jpg"
                     alt="Picture of the author"
                     width={360}
@@ -54,6 +56,7 @@ export default function Home() {
                 <Link href="./belmonte_arboretum">
                   {" "}
                   <Image
+                    className={styles.imgCards}
                     src="/hamamelis.jpg"
                     alt="Picture of the author"
                     width={360}
@@ -109,7 +112,7 @@ export default function Home() {
             <div className={styles.imgGallery}>
               <div className={styles.imgBox1}>
                 <Image
-                  className={styles.imgBlock}
+                  className={styles.imgBlock + " " + styles.imgVertical}
                   src="/Lunezee.jpg"
                   alt="Picture of the author"
                   width={450}
