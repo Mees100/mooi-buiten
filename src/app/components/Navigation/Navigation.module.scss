@@ -9,6 +9,7 @@
   right: 0;
   background-color: white;
   z-index: 1001;
+  max-width: 100%;
 }
 
 .clearHeader {
@@ -37,10 +38,14 @@
       display: inline;
       align-items: center;
       text-decoration: none;
+      padding-left: 4%;
       font : {
         family: "Gwendolyn", serif;
         style: normal;
         size: 3.5rem;
+      }
+      @media only screen and (max-width: 576px) {
+        font-size: 3rem;
       }
     }
   }
@@ -61,6 +66,9 @@
       &:hover,
       &.active {
         color: lighten(#545756, 20);
+      }
+      @media only screen and (max-width: 576px) {
+        padding: 10px;
       }
     }
   }
