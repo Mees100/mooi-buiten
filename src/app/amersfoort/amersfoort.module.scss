@@ -2,12 +2,16 @@
 
 .wrapper {
   display: grid;
-  grid-template: 150px 550px repeat(6, 250px) / repeat(12, 1fr);
+  grid-template: 100px 665px repeat(6, 250px) / repeat(12, 1fr);
   width: 100%;
   min-height: 100vh;
   height: 100%;
   gap: 20px;
   margin-bottom: 20px;
+  @media only screen and (max-width: 1200px) {
+    grid-template: 100px repeat(7, auto) / repeat(12, 1fr);
+    max-height: auto;
+  }
 
   .contentTitle {
     grid-area: 1 / 1 / 1 / 13;
@@ -20,24 +24,27 @@
       padding-bottom: 2%;
     }
   }
+  .img {
+    max-width: 100%;
+    height: auto;
+  }
   .img1 {
     grid-area: 2 / 2 / 3 / 12;
-    max-width: 100%;
   }
   .img2 {
-    grid-area: 3 / 2 / 4 / 6;
+    grid-area: 3 / 2 / 4 / 7;
   }
   .img3 {
-    grid-area: 3 / 7 / 4 / 11;
+    grid-area: 3 / 7 / 4 / 12;
   }
   .img4 {
-    grid-area: 5 / 2 / 6 / 6;
+    grid-area: 5 / 2 / 6 / 7;
   }
   .img5 {
     grid-area: 5 / 7 / 6 / 12;
   }
   .img6 {
-    grid-area: 7 / 2 / 8 / 6;
+    grid-area: 7 / 2 / 8 / 7;
   }
   .img7 {
     grid-area: 7 / 7 / 8 / 12;

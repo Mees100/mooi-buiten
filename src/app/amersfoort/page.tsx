@@ -14,15 +14,17 @@ export default function Test() {
 
           <div className={styles.img1}>
             <Image
+              className={styles.img}
               src="/202501_Amersfoort/202502_amersfoort1.jpg"
               alt="Picture of the author"
               width={1009}
-              height={550}
+              height={665}
             />
           </div>
 
           <div className={styles.img2}>
             <Image
+              className={styles.img}
               src="/202501_Amersfoort/202502_amersfoort2.jpg"
               alt="Picture of the author"
               width={500}
@@ -31,6 +33,7 @@ export default function Test() {
           </div>
           <div className={styles.img3}>
             <Image
+              className={styles.img}
               src="/202501_Amersfoort/202502_amersfoort6.jpg"
               alt="Picture of the author"
               width={500}
@@ -39,6 +42,7 @@ export default function Test() {
           </div>
           <div className={styles.img4}>
             <Image
+              className={styles.img}
               src="/202501_Amersfoort/202502_amersfoort3.jpg"
               alt="Picture of the author"
               width={500}
@@ -47,6 +51,7 @@ export default function Test() {
           </div>
           <div className={styles.img5}>
             <Image
+              className={styles.img}
               src="/202501_Amersfoort/202502_amersfoort4.jpg"
               alt="Picture of the author"
               width={500}
@@ -55,6 +60,7 @@ export default function Test() {
           </div>
           <div className={styles.img6}>
             <Image
+              className={styles.img}
               src="/202501_Amersfoort/202502_amersfoort5.jpg"
               alt="Picture of the author"
               width={500}
@@ -63,6 +69,7 @@ export default function Test() {
           </div>
           <div className={styles.img7}>
             <Image
+              className={styles.img}
               src="/202501_Amersfoort/202502_amersfoort7.jpg"
               alt="Picture of the author"
               width={500}
