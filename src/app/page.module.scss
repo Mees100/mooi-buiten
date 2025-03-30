@@ -39,6 +39,7 @@
   box-shadow: 0 0 12px lighten(#17171a24, 40%), 0 0 6px lighten(#17171a1a, 40%);
   margin-bottom: 3%;
   max-width: 100%;
+
   .imgCards {
     max-width: 100%;
     height: auto;
@@ -46,6 +47,9 @@
   a {
     color: $primary-font-color;
     text-decoration: none;
+    @media only screen and (max-width: 576px) {
+      text-decoration: underline;
+    }
   }
   &:hover {
     box-shadow: 0 0 12px #17171a24, 0 0 6px #17171a1a;
