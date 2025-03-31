@@ -82,7 +82,7 @@ export default function pagebelmontearboretum() {
           <div className={styles.img8}>
             <Image
               className={styles.img}
-              src="/202502_BelmonteArboretum/202502_belmonteArboretum_8.jpg"
+              src="/202502_BelmonteArboretum/202503_belmonteArboretum_8.jpg"
               alt="Picture of the author"
               width={1009}
               height={650}
