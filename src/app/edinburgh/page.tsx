@@ -10,7 +10,7 @@ export default function Edinburgh() {
         <div className={styles.wrapper}>
           <div className={styles.contentTitle}>
             <h3>Edinburgh in maart</h3>
-            <p>Arthur's Seat</p>
+            <p>Arthur &apos;s Seat</p>
           </div>
 
           <div className={styles.img1}>
