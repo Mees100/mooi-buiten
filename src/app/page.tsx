@@ -29,16 +29,16 @@ export default function Home() {
           <MainInner>
             <div className={styles.containerFlex}>
               <div className={styles.layoutCards}>
-                <Image
-                  className={styles.imgCards}
-                  src="/krokus-2.jpg"
-                  alt="Picture of the author"
-                  width={360}
-                  height={360}
-                />
-                <div className={styles.titleCard}>
-                  <p>Bloemen</p>
-                </div>
+                <Link href="./edinburgh">
+                  <Image
+                    className={styles.imgCards}
+                    src="/202503_Edinburgh/202503_edinburgh_5.jpg"
+                    alt="Picture of the author"
+                    width={360}
+                    height={360}
+                  />
+                  <div className={styles.titleCard}>Edinburgh</div>
+                </Link>
               </div>
               <div className={styles.layoutCards}>
                 <Link href="./amersfoort">
