@@ -77,7 +77,7 @@ export default function Home() {
                 <h2>Veluwe</h2>
                 <p>Ijzige en mistige ochtend in januari</p>
                 <button className={styles.btnContent}>
-                  <Link href="./wolfheze">Bekijk meer foto&apos;s</Link>
+                  <Link href="./wolfheze">Bekijk foto&apos;s</Link>
                 </button>
               </div>
               <div>

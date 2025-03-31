@@ -29,8 +29,9 @@ export default function About() {
                 </p>
               </div>
 
-              <div className={styles.image}>
+              <div className={styles.imageAbout}>
                 <Image
+                  className={styles.img}
                   src="/me.jpg"
                   alt="Picture of the author"
                   width={400}

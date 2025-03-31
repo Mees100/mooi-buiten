@@ -2,12 +2,16 @@
 
 .wrapper {
   display: grid;
-  grid-template: 200px 650px repeat(4, 250px) / repeat(12, 1fr);
+  grid-template: 150px 650px repeat(4, 250px) / repeat(12, 1fr);
   width: 100%;
   min-height: 100vh;
   height: 100%;
   gap: 20px;
   margin-bottom: 20px;
+  @media only screen and (max-width: 1200px) {
+    grid-template: 100px repeat(7, auto) / repeat(12, 1fr);
+    max-height: auto;
+  }
 }
 .contentTitle {
   grid-area: 1 / 1 / 1 / 13;
@@ -15,30 +19,44 @@
   font-size: 1.2rem;
   text-align: justify;
   line-height: 2rem;
-
-  h3 {
+  h3, p {
     text-align: center;
-    padding-bottom: 2%;
+    
   }
 }
-
+.img {
+  max-width: 100%;
+  height: auto;
+}
 .img1 {
   grid-area: 2 / 2 / 3 / 12;
+  position: relative;
+  .imgTitle{
+    position: absolute;
+    bottom: 0.5%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    color: $primary-color;
+    background-color: transparent;
+    p {
+      font-size:0.9rem;
+    }
+  }
 }
 .img2 {
-  grid-area: 3 / 2 / 4 / 6;
+  grid-area: 3 / 2 / 4 / 7;
 }
 .img3 {
-  grid-area: 3 / 7 / 4 / 11;
+  grid-area: 3 / 7 / 4 / 12;
 }
 .img4 {
-  grid-area: 5 / 2 / 6 / 6;
+  grid-area: 5 / 2 / 6 / 7;
 }
 .img5 {
   grid-area: 5 / 7 / 6 / 12;
 }
 .img6 {
-  grid-area: 7 / 2 / 8 / 6;
+  grid-area: 7 / 2 / 8 / 7;
 }
 .img7 {
   grid-area: 7 / 7 / 8 / 12;
