@@ -4,7 +4,14 @@ import Navigation from "./components/Navigation";
 import { Gwendolyn, Roboto } from "next/font/google";
 import BtnBackToTop from "./components/ButtonBackToTop/BtnBackToTop";
 import styles from "./styles/container.module.scss";
+import type { Viewport } from "next";
 
+export const viewport: Viewport = {
+  initialScale: 1,
+  maximumScale: 1,
+  width: "device-width",
+  userScalable: false,
+};
 const gwendolyn = Gwendolyn({
   weight: "700",
   subsets: ["latin"],
