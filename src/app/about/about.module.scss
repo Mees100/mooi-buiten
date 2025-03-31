@@ -1,32 +1,33 @@
 .about {
-  padding-top: 4rem;
-
-  p,
+  padding: 3%;
+  .text{
+    padding-right: 7%;
+    p,
   h1 {
     padding-bottom: 1em;
     font-weight: 400;
   }
+}
   .contentWrapper {
     display: flex;
     text-align: justify;
-    .text {
-      padding-right: 7rem;
-    }
-    .image {
-      img {
+    height: 100%;
+   
+    .imageAbout{
+      .img {
         box-shadow: 5 5 5 grey;
-      }
-    }
+        max-width: 100%;
+        height: auto;
+              }
+            }
+    
     @media only screen and (max-width: 1200px) {
       flex-direction: column;
       .text {
-        padding-right: 0;
-        margin-bottom: 3rem;
+       padding-right: 0;
+        margin-bottom: 2rem;
       }
-      h1,
-      p {
-        padding: 1% 4%;
-      }
-    }
+      
+        }
   }
 }

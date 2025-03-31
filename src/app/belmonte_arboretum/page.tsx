@@ -10,6 +10,7 @@ export default function pagebelmontearboretum() {
         <div className={styles.wrapper}>
           <div className={styles.contentTitle}>
             <h3>Belmonte Arboretum in februari</h3>
+            <p>Wageningen</p>
           </div>
           <div className={styles.img1}>
             <Image
@@ -19,6 +20,9 @@ export default function pagebelmontearboretum() {
               width={1009}
               height={650}
             />
+            <div className={styles.imgTitle}>
+              <p>hamamelis * intermedia</p>
+            </div>
           </div>
 
           <div className={styles.img2}>
