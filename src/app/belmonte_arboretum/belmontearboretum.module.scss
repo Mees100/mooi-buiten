@@ -19,9 +19,9 @@
   font-size: 1.2rem;
   text-align: justify;
   line-height: 2rem;
-  h3, p {
+  h3,
+  p {
     text-align: center;
-    
   }
 }
 .img {
@@ -31,15 +31,22 @@
 .img1 {
   grid-area: 2 / 2 / 3 / 12;
   position: relative;
-  .imgTitle{
+  .imgTitle {
     position: absolute;
-    bottom: 0.5%;
-    left: 10%;
+    bottom: 5%;
+    left: 20%;
     transform: translate(-50%, -50%);
     color: $primary-color;
     background-color: transparent;
+    width: 100%;
+    text-align: center;
+
     p {
-      font-size:0.9rem;
+      font-size: 0.9em;
+      margin: unset;
+    }
+    @media only screen and (max-width: 1200px) {
+      left: 50%;
     }
   }
 }
