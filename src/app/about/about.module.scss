@@ -1,4 +1,6 @@
-.about {
+@use "../styles/variables" as *;
+
+.containerAbout {
   padding: 3%;
   .text {
     padding-right: 7%;
@@ -19,7 +21,7 @@
       }
     }
 
-    @media only screen and (max-width: 1200px) {
+    @media only screen and (max-width: $breakpoint-large) {
       flex-direction: column;
       .text {
         padding-right: 0;

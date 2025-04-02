@@ -14,7 +14,7 @@ export default function Home() {
             <div className={styles.banner}>
               <Image
                 className={styles.imgBanner}
-                src="/veluwe-schappen.jpg"
+                src="/img/imgHomePage/veluwe-schapen.jpg"
                 alt="Picture of the author"
                 width={1200}
                 height={650}

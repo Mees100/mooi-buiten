@@ -5,7 +5,7 @@ import MainInner from "../components/MainInner/MainInner";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapLocation } from "@fortawesome/free-solid-svg-icons";
 
-export default function Test() {
+export default function Wolfheze() {
   return (
     <>
       <MainInner>
@@ -17,7 +17,7 @@ export default function Test() {
               schitterende heideveld. Op een mooie januari ochtend met veel mist
               en rijp heb ik er deze foto&apos;s gemaakt. (2025)
             </p>
-            <p className={styles.iconeTitle}>
+            <p className={styles.iconTitle}>
               <FontAwesomeIcon icon={faMapLocation}></FontAwesomeIcon>{" "}
               <a
                 target="_blank"
