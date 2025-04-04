@@ -83,6 +83,8 @@
       width: 35px;
       cursor: pointer;
       margin-right: 25px;
+      position: absolute;
+      right: 35px;
     }
     .menuBar {
       height: 3px;
@@ -90,10 +92,7 @@
       margin: 6px 0;
     }
     .menuClose {
-      font-size: 23px;
-      // margin: 6px 0;
-      position: absolute;
-      right: 35px;
+      font-size: 23px;     
       z-index: 2000;
     }
     .nav,
