@@ -14,7 +14,7 @@ export default function Home() {
             <div className={styles.banner}>
               <Image
                 className={styles.imgBanner}
-                src="/img/imgHomePage/veluwe-schapen.jpg"
+                src="/images/imgHomePage/veluwe-schapen.jpg"
                 alt="Picture of the author"
                 width={1200}
                 height={650}
@@ -44,7 +44,7 @@ export default function Home() {
                 <Link href="./amersfoort">
                   <Image
                     className={styles.imgCards}
-                    src="/amersfoort-1.jpg"
+                    src="/images/202501_amersfoort/202502_amersfoort4.jpg"
                     alt="Picture of the author"
                     width={360}
                     height={360}
