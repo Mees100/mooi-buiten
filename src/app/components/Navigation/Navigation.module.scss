@@ -90,20 +90,28 @@
       margin: 6px 0;
     }
     .menuClose {
-      font-size: 21px;
-      margin: 6px 0;
+      font-size: 23px;
+      // margin: 6px 0;
+      position: absolute;
+      right: 35px;
+      z-index: 2000;
     }
-    .nav {
+    .nav,
+    .logo {
       display: none;
     }
 
     .nav.menuLinksOpen {
       display: flex;
-      background-color: grey;
+      background-color: $primary-color;
       flex-flow: column nowrap;
       flex-basis: 100%;
       height: 100vh;
       justify-content: normal;
+      flex-shrink: 0;
+      text-align: center;
+      padding-top: 90px;
+      text-decoration: underline;
     }
   }
 }
