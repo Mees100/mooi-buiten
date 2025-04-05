@@ -113,7 +113,7 @@ export default function Home() {
               <div className={styles.imgBox1}>
                 <Image
                   className={styles.imgBlock + " " + styles.imgVertical}
-                  src="/Lunezee.jpg"
+                  src="/images/imgHomePage/lunezee.jpg"
                   alt="Picture of the author"
                   width={450}
                   height={700}
@@ -123,7 +123,7 @@ export default function Home() {
                 <div>
                   <Image
                     className={styles.imgBlock}
-                    src="/mistInBergen.jpg"
+                    src="/images/imgHomePage/mistInBergen.jpg"
                     alt="Picture of the author"
                     width={600}
                     height={350}
@@ -132,7 +132,7 @@ export default function Home() {
                 <div>
                   <Image
                     className={styles.imgBlock}
-                    src="/bergbloem.jpg"
+                    src="/images/imgHomePage/bergbloem.jpg"
                     alt="Picture of the author"
                     width={600}
                     height={350}
