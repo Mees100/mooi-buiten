@@ -32,7 +32,7 @@ export default function Home() {
                 <Link href="./edinburgh">
                   <Image
                     className={styles.imgCards}
-                    src="/202503_Edinburgh/202503_edinburgh_5.jpg"
+                    src="/images/202503_edinburgh/202503_edinburgh_5.jpg"
                     alt="Picture of the author"
                     width={360}
                     height={360}
@@ -57,7 +57,7 @@ export default function Home() {
                   {" "}
                   <Image
                     className={styles.imgCards}
-                    src="/hamamelis.jpg"
+                    src="/images/imgHomePage/hamamelis.jpg"
                     alt="Picture of the author"
                     width={360}
                     height={360}
@@ -82,7 +82,7 @@ export default function Home() {
               </div>
               <div>
                 <Image
-                  src="/meer.jpg"
+                  src="/images/imgHomePage/meer.jpg"
                   alt="Picture of the author"
                   width={700}
                   height={450}
