@@ -9,7 +9,7 @@ export default function About() {
     <>
       <MainRow>
         <MainInner>
-          <div className={styles.about}>
+          <div className={styles.containerAbout}>
             <div className={styles.contentWrapper}>
               <div className={styles.text}>
                 <h1>Over mij</h1>

@@ -2,9 +2,15 @@
 import styles from "./Navigation.module.scss";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { useState } from "react";
 
 export default function Navigation() {
   const pathname = usePathname();
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  let menuLinksClassName = styles.nav;
+  if (isMenuOpen) {
+    menuLinksClassName += " " + styles.menuLinksOpen;
+  }
 
   return (
     <>
@@ -13,7 +19,21 @@ export default function Navigation() {
           <div className={styles.logo}>
             <Link href="./">Mooi Buiten</Link>
           </div>
-          <nav className={styles.nav}>
+          <div
+            className={styles.menuIcon}
+            onClick={() => setIsMenuOpen(!isMenuOpen)}
+          >
+            {isMenuOpen ? (
+              <div className={styles.menuClose}>X</div>
+            ) : (
+              <>
+                <div className={styles.menuBar}></div>
+                <div className={styles.menuBar}></div>
+                <div className={styles.menuBar}></div>
+              </>
+            )}
+          </div>
+          <nav className={menuLinksClassName}>
             <Link
               href="./"
               className={
@@ -21,6 +41,7 @@ export default function Navigation() {
                   ? styles.menuLink + " " + styles.active
                   : styles.menuLink
               }
+              onClick={() => setIsMenuOpen(false)}
             >
               Home
             </Link>
@@ -31,6 +52,7 @@ export default function Navigation() {
                   ? styles.menuLink + " " + styles.active
                   : styles.menuLink
               }
+              onClick={() => setIsMenuOpen(false)}
             >
               About
             </Link>
@@ -41,6 +63,7 @@ export default function Navigation() {
                   ? styles.menuLink + " " + styles.active
                   : styles.menuLink
               }
+              onClick={() => setIsMenuOpen(false)}
             >
               Contact
             </Link>

@@ -14,7 +14,7 @@ export default function Home() {
             <div className={styles.banner}>
               <Image
                 className={styles.imgBanner}
-                src="/veluwe-schappen.jpg"
+                src="/images/imgHomePage/veluwe-schapen.jpg"
                 alt="Picture of the author"
                 width={1200}
                 height={650}
@@ -32,7 +32,7 @@ export default function Home() {
                 <Link href="./edinburgh">
                   <Image
                     className={styles.imgCards}
-                    src="/202503_Edinburgh/202503_edinburgh_5.jpg"
+                    src="/images/202503_edinburgh/202503_edinburgh_5.jpg"
                     alt="Picture of the author"
                     width={360}
                     height={360}
@@ -44,7 +44,7 @@ export default function Home() {
                 <Link href="./amersfoort">
                   <Image
                     className={styles.imgCards}
-                    src="/amersfoort-1.jpg"
+                    src="/images/202501_amersfoort/202502_amersfoort4.jpg"
                     alt="Picture of the author"
                     width={360}
                     height={360}
@@ -57,7 +57,7 @@ export default function Home() {
                   {" "}
                   <Image
                     className={styles.imgCards}
-                    src="/hamamelis.jpg"
+                    src="/images/imgHomePage/hamamelis.jpg"
                     alt="Picture of the author"
                     width={360}
                     height={360}
@@ -82,7 +82,7 @@ export default function Home() {
               </div>
               <div>
                 <Image
-                  src="/meer.jpg"
+                  src="/images/imgHomePage/meer.jpg"
                   alt="Picture of the author"
                   width={700}
                   height={450}
@@ -113,7 +113,7 @@ export default function Home() {
               <div className={styles.imgBox1}>
                 <Image
                   className={styles.imgBlock + " " + styles.imgVertical}
-                  src="/Lunezee.jpg"
+                  src="/images/imgHomePage/lunezee.jpg"
                   alt="Picture of the author"
                   width={450}
                   height={700}
@@ -123,7 +123,7 @@ export default function Home() {
                 <div>
                   <Image
                     className={styles.imgBlock}
-                    src="/mistInBergen.jpg"
+                    src="/images/imgHomePage/mistInBergen.jpg"
                     alt="Picture of the author"
                     width={600}
                     height={350}
@@ -132,7 +132,7 @@ export default function Home() {
                 <div>
                   <Image
                     className={styles.imgBlock}
-                    src="/bergbloem.jpg"
+                    src="/images/imgHomePage/bergbloem.jpg"
                     alt="Picture of the author"
                     width={600}
                     height={350}
