@@ -12,6 +12,11 @@ export default function Navigation() {
     menuLinksClassName += " " + styles.menuLinksOpen;
   }
 
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setIsDropdownOpen(!isDropdownOpen);
+  };
   return (
     <>
       <div className={styles.headerBar}>
@@ -71,6 +76,34 @@ export default function Navigation() {
         </div>
       </div>
       <div className={styles.clearHeader}></div>
+      <div className={styles.headerDropdown}>
+        <button className={styles.btnDropdown} onClick={toggleDropdown}>
+          De natuur in
+        </button>
+
+        {isDropdownOpen && (
+          <ul className={styles.menuDropdown}>
+            <li className={styles.liDropdown}>
+              <Link href="../wolfheze" className={styles.linkDropdown}>
+                Veluwe
+              </Link>
+            </li>
+            <li className={styles.liDropdown}>
+              <Link
+                href="../belmonte_arboretum"
+                className={styles.linkDropdown}
+              >
+                Botanische tuin
+              </Link>
+            </li>
+            <li className={styles.liDropdown}>
+              <Link href="../edinburgh" className={styles.linkDropdown}>
+                Buitenland
+              </Link>
+            </li>
+          </ul>
+        )}
+      </div>
     </>
   );
 }
