@@ -1,11 +1,11 @@
 "use client";
 import Image from "next/image";
-import styles from "./wolfheze.module.scss";
+import styles from "./veluwe.module.scss";
 import MainInner from "../../components/MainInner/MainInner";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapLocation } from "@fortawesome/free-solid-svg-icons";
 
-export default function Wolfheze() {
+export default function Veluwe() {
   return (
     <>
       <MainInner>
