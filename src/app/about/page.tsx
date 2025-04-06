@@ -14,18 +14,18 @@ export default function About() {
               <div className={styles.text}>
                 <h1>Over mij</h1>
                 <p>
-                  Lorem ipsum odor amet, consectetuer adipiscing elit. Risus sit
-                  mauris non class tempus lobortis etiam sem himenaeos. Sociosqu
-                  euismod penatibus mattis inceptos tincidunt facilisi fusce
-                  erat.
+                  Ik ben Alina. Ik heb veel interesses, waaronder natuur,
+                  wandelen, reizen, en fotografie. Behalve in de natuur, wandel
+                  ik ook graag in steden. Ik vind het leuk om de architectuur te
+                  bestuderen en musea te bezoeken. Ik heb mijn hobby's
+                  gecombineerd en deze blog gemaakt om mooie plekken en momenten
+                  te delen.
                 </p>
                 <p>
-                  Vehicula feugiat ultricies dui ad rutrum venenatis. Class
-                  mauris dictum magna rhoncus habitant potenti posuere nostra.
-                  Blandit litora metus nisl tempus eros ridiculus finibus
-                  volutpat. Lacinia ante semper habitasse malesuada risus.
-                  Litora penatibus erat augue mus velit congue. Nec lacinia vel
-                  porttitor, fermentum id facilisis ipsum sagittis.
+                  Ik heb geen favoriet seizoen, omdat elk zijn eigen charme
+                  hebt. Ik geloof dat de natuur geen slecht weer kent. Daarom
+                  ben ik graag buiten, ongeacht het weer en het seizoen. Ik maak
+                  foto's met de camera Canon EOS M200.
                 </p>
               </div>
 
