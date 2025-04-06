@@ -32,7 +32,7 @@ export default function About() {
               <div className={styles.imageAbout}>
                 <Image
                   className={styles.img}
-                  src="/me.jpg"
+                  src="/images/me.jpg"
                   alt="Picture of the author"
                   width={400}
                   height={400}

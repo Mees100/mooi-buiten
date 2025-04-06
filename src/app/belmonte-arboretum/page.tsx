@@ -15,7 +15,7 @@ export default function pagebelmontearboretum() {
           <div className={styles.img1}>
             <Image
               className={styles.img}
-              src="/images/202502_belmonteArboretum/202502_belmonteArboretum_1.jpg"
+              src="/images/202502-belmonte-arboretum/202502-belmonte-arboretum-1.jpg"
               alt="Picture of the author"
               width={1009}
               height={650}
@@ -28,7 +28,7 @@ export default function pagebelmontearboretum() {
           <div className={styles.img2}>
             <Image
               className={styles.img}
-              src="/images/202502_belmonteArboretum/202502_belmonteArboretum_2.jpg"
+              src="/images/202502-belmonte-arboretum/202502-belmonte-arboretum-2.jpg"
               alt="Picture of the author"
               width={500}
               height={500}
@@ -37,7 +37,7 @@ export default function pagebelmontearboretum() {
           <div className={styles.img3}>
             <Image
               className={styles.img}
-              src="/images/202502_belmonteArboretum/202502_belmonteArboretum_3.jpg"
+              src="/images/202502-belmonte-arboretum/202502-belmonte-arboretum-3.jpg"
               alt="Picture of the author"
               width={500}
               height={500}
@@ -46,7 +46,7 @@ export default function pagebelmontearboretum() {
           <div className={styles.img4}>
             <Image
               className={styles.img}
-              src="/images/202502_belmonteArboretum/202502_belmonteArboretum_4.jpg"
+              src="/images/202502-belmonte-arboretum/202502-belmonte-arboretum-4.jpg"
               alt="Picture of the author"
               width={500}
               height={500}
@@ -55,7 +55,7 @@ export default function pagebelmontearboretum() {
           <div className={styles.img5}>
             <Image
               className={styles.img}
-              src="/images/202502_belmonteArboretum/202502_belmonteArboretum_5.jpg"
+              src="/images/202502-belmonte-arboretum/202502-belmonte-arboretum-5.jpg"
               alt="Picture of the author"
               width={500}
               height={500}
@@ -64,7 +64,7 @@ export default function pagebelmontearboretum() {
           <div className={styles.img6}>
             <Image
               className={styles.img}
-              src="/images/202502_belmonteArboretum/202502_belmonteArboretum_6.jpg"
+              src="/images/202502-belmonte-arboretum/202502-belmonte-arboretum-6.jpg"
               alt="Picture of the author"
               width={500}
               height={500}
@@ -73,7 +73,7 @@ export default function pagebelmontearboretum() {
           <div className={styles.img7}>
             <Image
               className={styles.img}
-              src="/images/202502_belmonteArboretum/202502_belmonteArboretum_7.jpg"
+              src="/images/202502-belmonte-arboretum/202502-belmonte-arboretum-7.jpg"
               alt="Picture of the author"
               width={500}
               height={500}
@@ -82,7 +82,7 @@ export default function pagebelmontearboretum() {
           <div className={styles.img8}>
             <Image
               className={styles.img}
-              src="/images/202502_belmonteArboretum/202503_belmonteArboretum_8.jpg"
+              src="/images/202502-belmonte-arboretum/202503-belmonte-arboretum-8.jpg"
               alt="Picture of the author"
               width={1009}
               height={650}
