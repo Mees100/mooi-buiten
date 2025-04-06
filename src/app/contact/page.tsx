@@ -2,6 +2,8 @@
 import Form from "next/form";
 import styles from "./Contact.module.scss";
 import { useForm, SubmitHandler } from "react-hook-form";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faExclamationTriangle } from "@fortawesome/free-solid-svg-icons";
 
 type Inputs = {
   fname: string;
@@ -26,6 +28,10 @@ export default function Contact() {
         <div className={styles.contactForm}>
           <Form action="/search" onSubmit={handleSubmit(onSubmit)}>
             <h1>Contactformulier</h1>
+            <div className="alert warning">
+              <FontAwesomeIcon icon={faExclamationTriangle} /> Let op: dit
+              formulier wordt nog niet verzonden.
+            </div>
             <div className={styles.controlLabelstar}>
               <strong>*</strong>
               Verplicht veld

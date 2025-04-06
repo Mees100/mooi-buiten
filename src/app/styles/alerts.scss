@@ -1,0 +1,9 @@
+.alert {
+  padding: 1rem;
+  border: 1px solid;
+
+  &.warning {
+    border-color: $warning;
+    color: $warning;
+  }
+}
