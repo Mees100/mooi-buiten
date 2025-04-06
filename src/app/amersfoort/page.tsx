@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import styles from "./amersfoort.module.scss";
-import MainInner from "../components/MainInner/MainInner";
+import MainInner from "../../components/MainInner/MainInner";
 
 export default function Test() {
   return (

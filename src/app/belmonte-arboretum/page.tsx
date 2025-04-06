@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import styles from "./belmontearboretum.module.scss";
-import MainInner from "../components/MainInner/MainInner";
+import MainInner from "../../components/MainInner/MainInner";
 
 export default function pagebelmontearboretum() {
   return (

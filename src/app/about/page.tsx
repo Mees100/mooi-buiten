@@ -1,6 +1,6 @@
 "use client";
-import MainInner from "../components/MainInner/MainInner";
-import MainRow from "../components/MainRow/MainRow";
+import MainInner from "../../components/MainInner/MainInner";
+import MainRow from "../../components/MainRow/MainRow";
 import styles from "./about.module.scss";
 import Image from "next/image";
 

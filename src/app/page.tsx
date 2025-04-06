@@ -2,8 +2,8 @@
 import styles from "./page.module.scss";
 import Image from "next/image";
 import Link from "next/link";
-import MainRow from "./components/MainRow/MainRow";
-import MainInner from "./components/MainInner/MainInner";
+import MainRow from "../components/MainRow/MainRow";
+import MainInner from "../components/MainInner/MainInner";
 
 export default function Home() {
   return (
@@ -53,7 +53,7 @@ export default function Home() {
                 </Link>
               </div>
               <div className={styles.layoutCards}>
-                <Link href="./belmonte_arboretum">
+                <Link href="./belmonte-arboretum">
                   {" "}
                   <Image
                     className={styles.imgCards}
