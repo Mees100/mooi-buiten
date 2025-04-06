@@ -17,7 +17,7 @@ export default function About() {
                   Ik ben Alina. Ik heb veel interesses, waaronder natuur,
                   wandelen, reizen, en fotografie. Behalve in de natuur, wandel
                   ik ook graag in steden. Ik vind het leuk om de architectuur te
-                  bestuderen en musea te bezoeken. Ik heb mijn hobby's
+                  bestuderen en musea te bezoeken. Ik heb mijn hobby&apos;s
                   gecombineerd en deze blog gemaakt om mooie plekken en momenten
                   te delen.
                 </p>
@@ -25,7 +25,7 @@ export default function About() {
                   Ik heb geen favoriet seizoen, omdat elk zijn eigen charme
                   hebt. Ik geloof dat de natuur geen slecht weer kent. Daarom
                   ben ik graag buiten, ongeacht het weer en het seizoen. Ik maak
-                  foto's met de camera Canon EOS M200.
+                  foto&apos;s met de camera Canon EOS M200.
                 </p>
               </div>
 
