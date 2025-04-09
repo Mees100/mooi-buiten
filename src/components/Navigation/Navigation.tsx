@@ -7,15 +7,16 @@ import { useState } from "react";
 export default function Navigation() {
   const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  let menuLinksClassName = styles.nav;
+
+  let headerTopWrapperClassName = styles.headerTopWrapper;
   if (isMenuOpen) {
-    menuLinksClassName += " " + styles.menuLinksOpen;
+    headerTopWrapperClassName += " " + styles.headerTopWrapperMenuOpen;
   }
 
   return (
     <>
       <div className={styles.headerBar}>
-        <div className={styles.headerTopWrapper}>
+        <div className={headerTopWrapperClassName}>
           <div className={styles.logo}>
             <Link href="./">Mooi Buiten</Link>
           </div>
@@ -33,7 +34,7 @@ export default function Navigation() {
               </>
             )}
           </div>
-          <nav className={menuLinksClassName}>
+          <nav className={styles.nav}>
             <Link
               href="./"
               className={
