@@ -3,7 +3,7 @@ import "./globals.scss";
 import Navigation from "../components/Navigation";
 import { Gwendolyn, Roboto } from "next/font/google";
 import BtnBackToTop from "../components/ButtonBackToTop/BtnBackToTop";
-import styles from "../styles/container.module.scss";
+import styles from "../styles/layout.module.scss";
 import type { Viewport } from "next";
 
 export const viewport: Viewport = {
@@ -37,7 +37,7 @@ export default function RootLayout({
     <html lang="nl" className={`${roboto.variable} ${gwendolyn.variable}`}>
       <body>
         <Navigation />
-        <main className={styles.container}>{children}</main>
+        <main className={styles.main}>{children}</main>
         <BtnBackToTop />
       </body>
     </html>
