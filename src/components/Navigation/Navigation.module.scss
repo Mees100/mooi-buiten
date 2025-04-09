@@ -78,13 +78,17 @@
 
   @media only screen and (max-width: $breakpoint-small) {
     .menuIcon {
-      margin-top: 21px;
+      margin-top: 25px;
       display: block;
       width: 35px;
       cursor: pointer;
-      margin-right: 25px;
       position: absolute;
       right: 35px;
+    }
+    &.headerTopWrapperMenuOpen {
+      .logo {
+        display: none;
+      }
     }
     .menuBar {
       height: 3px;
@@ -95,9 +99,17 @@
       font-size: 23px;
       text-align: end;
     }
-    .nav,
+
     .logo {
-      display: none;
+      flex-grow: 2;
+    }
+
+    .nav {
+      background: white;
+      height: 0;
+      width: 0;
+      overflow: hidden;
+      transition: background-color 1s linear;
     }
 
     .nav.menuLinksOpen {

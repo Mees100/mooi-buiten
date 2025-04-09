@@ -12,10 +12,15 @@ export default function Navigation() {
     menuLinksClassName += " " + styles.menuLinksOpen;
   }
 
+  let headerTopWrapperClassName = styles.headerTopWrapper;
+  if (isMenuOpen) {
+    headerTopWrapperClassName += " " + styles.headerTopWrapperMenuOpen;
+  }
+
   return (
     <>
       <div className={styles.headerBar}>
-        <div className={styles.headerTopWrapper}>
+        <div className={headerTopWrapperClassName}>
           <div className={styles.logo}>
             <Link href="./">Mooi Buiten</Link>
           </div>
