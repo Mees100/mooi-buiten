@@ -7,10 +7,6 @@ import { useState } from "react";
 export default function Navigation() {
   const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  let menuLinksClassName = styles.nav;
-  if (isMenuOpen) {
-    menuLinksClassName += " " + styles.menuLinksOpen;
-  }
 
   let headerTopWrapperClassName = styles.headerTopWrapper;
   if (isMenuOpen) {
@@ -38,7 +34,7 @@ export default function Navigation() {
               </>
             )}
           </div>
-          <nav className={menuLinksClassName}>
+          <nav className={styles.nav}>
             <Link
               href="./"
               className={
