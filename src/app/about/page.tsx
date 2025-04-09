@@ -1,6 +1,6 @@
 "use client";
-import MainInner from "../components/MainInner/MainInner";
-import MainRow from "../components/MainRow/MainRow";
+import MainInner from "../../components/MainInner/MainInner";
+import MainRow from "../../components/MainRow/MainRow";
 import styles from "./about.module.scss";
 import Image from "next/image";
 
@@ -32,7 +32,7 @@ export default function About() {
               <div className={styles.imageAbout}>
                 <Image
                   className={styles.img}
-                  src="/me.jpg"
+                  src="/images/me.jpg"
                   alt="Picture of the author"
                   width={400}
                   height={400}

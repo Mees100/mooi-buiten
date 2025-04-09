@@ -1,0 +1,67 @@
+@use "../../styles/variables" as *;
+@use "../../styles/_mixins.scss" as *;
+
+.wrapper {
+  @include grid-layout(4);
+  @media only screen and (max-width: $breakpoint-large) {
+    grid-template: 100px repeat(7, auto) / repeat(12, 1fr);
+    max-height: auto;
+  }
+}
+.contentTitle {
+  grid-area: 1 / 1 / 1 / 13;
+  padding: 3% 1%;
+  font-size: 1.2rem;
+  text-align: justify;
+  line-height: 2rem;
+  h3,
+  p {
+    text-align: center;
+  }
+}
+.img {
+  @include img-responsive;
+}
+.img1 {
+  grid-area: 2 / 2 / 3 / 12;
+  position: relative;
+  .imgTitle {
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    color: $primary-color;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+
+    p {
+      font-size: 0.9em;
+      margin: unset;
+    }
+    @media only screen and (max-width: 1200px) {
+      left: 50%;
+    }
+  }
+}
+.img2 {
+  grid-area: 3 / 2 / 4 / 7;
+}
+.img3 {
+  grid-area: 3 / 7 / 4 / 12;
+}
+.img4 {
+  grid-area: 5 / 2 / 6 / 7;
+}
+.img5 {
+  grid-area: 5 / 7 / 6 / 12;
+}
+.img6 {
+  grid-area: 7 / 2 / 8 / 7;
+}
+.img7 {
+  grid-area: 7 / 7 / 8 / 12;
+}
+.img8 {
+  grid-area: 9 / 2 / 10 / 12;
+}

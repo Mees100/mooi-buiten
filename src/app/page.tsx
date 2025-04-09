@@ -2,8 +2,8 @@
 import styles from "./page.module.scss";
 import Image from "next/image";
 import Link from "next/link";
-import MainRow from "./components/MainRow/MainRow";
-import MainInner from "./components/MainInner/MainInner";
+import MainRow from "../components/MainRow/MainRow";
+import MainInner from "../components/MainInner/MainInner";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
             <div className={styles.banner}>
               <Image
                 className={styles.imgBanner}
-                src="/images/imgHomePage/veluwe-schapen.jpg"
+                src="/images/home-page/veluwe-schapen.jpg"
                 alt="Picture of the author"
                 width={1200}
                 height={650}
@@ -32,7 +32,7 @@ export default function Home() {
                 <Link href="./edinburgh">
                   <Image
                     className={styles.imgCards}
-                    src="/images/202503_edinburgh/202503_edinburgh_5.jpg"
+                    src="/images/202503-edinburgh/202503-edinburgh-5.jpg"
                     alt="Picture of the author"
                     width={360}
                     height={360}
@@ -44,7 +44,7 @@ export default function Home() {
                 <Link href="./amersfoort">
                   <Image
                     className={styles.imgCards}
-                    src="/images/202501_amersfoort/202502_amersfoort4.jpg"
+                    src="/images/202502-amersfoort/202502-amersfoort-4.jpg"
                     alt="Picture of the author"
                     width={360}
                     height={360}
@@ -53,11 +53,11 @@ export default function Home() {
                 </Link>
               </div>
               <div className={styles.layoutCards}>
-                <Link href="./belmonte_arboretum">
+                <Link href="./belmonte-arboretum">
                   {" "}
                   <Image
                     className={styles.imgCards}
-                    src="/images/imgHomePage/hamamelis.jpg"
+                    src="/images/home-page/hamamelis.jpg"
                     alt="Picture of the author"
                     width={360}
                     height={360}
@@ -77,12 +77,12 @@ export default function Home() {
                 <h2>Veluwe</h2>
                 <p>Ijzige en mistige ochtend in januari</p>
                 <button className={styles.btnContent}>
-                  <Link href="./wolfheze">Bekijk foto&apos;s</Link>
+                  <Link href="./veluwe">Bekijk foto&apos;s</Link>
                 </button>
               </div>
               <div>
                 <Image
-                  src="/images/imgHomePage/meer.jpg"
+                  src="/images/home-page/meer.jpg"
                   alt="Picture of the author"
                   width={700}
                   height={450}
@@ -113,7 +113,7 @@ export default function Home() {
               <div className={styles.imgBox1}>
                 <Image
                   className={styles.imgBlock + " " + styles.imgVertical}
-                  src="/images/imgHomePage/lunezee.jpg"
+                  src="/images/home-page/lunezee.jpg"
                   alt="Picture of the author"
                   width={450}
                   height={700}
@@ -123,7 +123,7 @@ export default function Home() {
                 <div>
                   <Image
                     className={styles.imgBlock}
-                    src="/images/imgHomePage/mistInBergen.jpg"
+                    src="/images/home-page/mistInBergen.jpg"
                     alt="Picture of the author"
                     width={600}
                     height={350}
@@ -132,7 +132,7 @@ export default function Home() {
                 <div>
                   <Image
                     className={styles.imgBlock}
-                    src="/images/imgHomePage/bergbloem.jpg"
+                    src="/images/home-page/bergbloem.jpg"
                     alt="Picture of the author"
                     width={600}
                     height={350}

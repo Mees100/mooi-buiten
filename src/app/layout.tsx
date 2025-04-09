@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.scss";
-import Navigation from "./components/Navigation";
+import Navigation from "../components/Navigation";
 import { Gwendolyn, Roboto } from "next/font/google";
-import BtnBackToTop from "./components/ButtonBackToTop/BtnBackToTop";
-import styles from "./styles/container.module.scss";
+import BtnBackToTop from "../components/ButtonBackToTop/BtnBackToTop";
+import styles from "../styles/container.module.scss";
 import type { Viewport } from "next";
 
 export const viewport: Viewport = {

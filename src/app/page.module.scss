@@ -1,4 +1,4 @@
-@use "styles/variables" as *;
+@use "../styles/variables" as *;
 
 .bgGrey {
   background-color: lighten($primary-color, 15%);
