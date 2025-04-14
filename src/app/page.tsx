@@ -15,7 +15,7 @@ export default function Home() {
               <Image
                 className={styles.imgBanner}
                 src="/images/home-page/veluwe-schapen.jpg"
-                alt="Picture of the author"
+                alt="Schapen op de Veluwe"
                 width={1200}
                 height={650}
               />
@@ -33,7 +33,7 @@ export default function Home() {
                   <Image
                     className={styles.imgCards}
                     src="/images/202503-edinburgh/202503-edinburgh-5.jpg"
-                    alt="Picture of the author"
+                    alt="Edinburgh"
                     width={360}
                     height={360}
                   />
@@ -45,7 +45,7 @@ export default function Home() {
                   <Image
                     className={styles.imgCards}
                     src="/images/202502-amersfoort/202502-amersfoort-4.jpg"
-                    alt="Picture of the author"
+                    alt="Amersfoort"
                     width={360}
                     height={360}
                   />
@@ -58,7 +58,7 @@ export default function Home() {
                   <Image
                     className={styles.imgCards}
                     src="/images/home-page/hamamelis.jpg"
-                    alt="Picture of the author"
+                    alt="hamamelis * intermedia"
                     width={360}
                     height={360}
                   />
@@ -83,7 +83,7 @@ export default function Home() {
               <div>
                 <Image
                   src="/images/home-page/meer.jpg"
-                  alt="Picture of the author"
+                  alt="een ven op de Veluwe"
                   width={700}
                   height={450}
                   className={styles.imgContent}
@@ -114,7 +114,7 @@ export default function Home() {
                 <Image
                   className={styles.imgBlock + " " + styles.imgVertical}
                   src="/images/home-page/lunezee.jpg"
-                  alt="Picture of the author"
+                  alt="Lunerzee"
                   width={450}
                   height={700}
                 />
@@ -124,7 +124,7 @@ export default function Home() {
                   <Image
                     className={styles.imgBlock}
                     src="/images/home-page/mistInBergen.jpg"
-                    alt="Picture of the author"
+                    alt="Mist in de bergen"
                     width={600}
                     height={350}
                   />
@@ -133,7 +133,7 @@ export default function Home() {
                   <Image
                     className={styles.imgBlock}
                     src="/images/home-page/bergbloem.jpg"
-                    alt="Picture of the author"
+                    alt="bergbloem"
                     width={600}
                     height={350}
                   />
