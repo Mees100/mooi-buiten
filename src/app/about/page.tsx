@@ -24,9 +24,9 @@ export default function About() {
                 <p>
                   Ik heb geen favoriet seizoen, omdat elk zijn eigen charme
                   hebt. Ik geloof dat de natuur geen slecht weer kent. Daarom
-                  ben ik graag buiten, ongeacht het weer en het seizoen. Ik maak
-                  foto&apos;s met de camera Canon EOS M200.
+                  ben ik graag buiten, ongeacht het weer en het seizoen.
                 </p>
+                <p> Ik maak foto&apos;s met de camera Canon EOS M200.</p>
               </div>
 
               <div className={styles.imageAbout}>
