@@ -33,7 +33,7 @@ export default function Home() {
                   <Image
                     className={styles.imgCards}
                     src="/images/202503-edinburgh/202503-edinburgh-5.jpg"
-                    alt="Edinburgh"
+                    alt="panoramisch uitzicht op Edinburgh"
                     width={360}
                     height={360}
                   />
@@ -45,7 +45,7 @@ export default function Home() {
                   <Image
                     className={styles.imgCards}
                     src="/images/202502-amersfoort/202502-amersfoort-4.jpg"
-                    alt="Amersfoort"
+                    alt="een straat in Amersfoort"
                     width={360}
                     height={360}
                   />
