@@ -8,8 +8,10 @@
    - file-system App Router
    - styling with modules in Next.js
    - font and images optimization
+     
+2. React-hook-form  
 
-2. Sass usage:
+3. Sass usage:
 
    - nesting properties
    - nesting selectors
@@ -18,13 +20,13 @@
    - default arguments
    - structure
 
-3. Flex and Grid usage
+4. Flex and Grid usage
 
-4. Common dev tools:
+5. Common dev tools:
 
    - use prettier and eslint to keep code readable
 
-5. Responsive design:
+6. Responsive design:
    - media queries
    - sizing elements
 
