@@ -67,7 +67,7 @@ export default function Veluwe() {
           <div className={styles.img5}>
             <Image
               className={styles.img}
-              src="/images/202501-veluwe/202501-veluwe-4.jpg"
+              src="/images/202501-veluwe/202501-veluwe-5.jpg"
               alt="Picture of the author"
               width={450}
               height={450}
