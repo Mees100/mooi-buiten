@@ -15,7 +15,7 @@ export default function About() {
                 <h1>Over mij</h1>
                 <p>
                   Ik ben Alina. Ik heb veel interesses, waaronder natuur,
-                  wandelen, reizen, en fotografie. Behalve in de natuur, wandel
+                  wandelen, reizen en fotografie. Behalve in de natuur, wandel
                   ik ook graag in steden. Ik vind het leuk om de architectuur te
                   bestuderen en musea te bezoeken. Ik heb mijn hobby&apos;s
                   gecombineerd en deze blog gemaakt om mooie plekken en momenten
