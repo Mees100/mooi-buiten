@@ -1,0 +1,16 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    target-branch: 'main'
+    # Disable version updates for npm dependencies
+    open-pull-requests-limit: 0
+    assignees:
+      - "allartk"
+      - "Mees100"
+    commit-message:
+      prefix: fix
+      prefix-development: chore
+      include: scope
