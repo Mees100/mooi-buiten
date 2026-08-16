@@ -1,5 +1,7 @@
 # My Next.js project - my blog
 
+This repository is now at https://github.com/TreeTeamNL/mooi-buiten
+
 ## This app demonstrates my knowledge of:
 
 1. Next.js core concepts:
